@@ -1,0 +1,27 @@
+<svg width="214" height="214" viewBox="0 0 214 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8" filter="url(#filter0_f)">
+<circle cx="106.771" cy="106.771" r="26.7706" fill="#D29BC0"/>
+</g>
+<circle opacity="0.3" cx="107.409" cy="111.5" r="18.5" stroke="url(#paint0_linear)"/>
+<path d="M33 111.5L111.565 111.5" stroke="url(#paint1_linear)"/>
+<path d="M103.659 103.071L112.088 111.5L103.226 120.362" stroke="url(#paint2_linear)"/>
+<defs>
+<filter id="filter0_f" x="0" y="0" width="213.541" height="213.541" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur"/>
+</filter>
+<linearGradient id="paint0_linear" x1="136.659" y1="111.5" x2="62.1592" y2="111.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DBCCAE"/>
+<stop offset="0.625" stop-color="#7250EE" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="105.704" y1="110.27" x2="33" y2="110.27" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DBCCAE"/>
+<stop offset="1" stop-color="#7251EF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="112.69" y1="111.485" x2="103.454" y2="111.254" gradientUnits="userSpaceOnUse">
+<stop offset="0.208333" stop-color="#F0E0BD"/>
+<stop offset="1" stop-color="#7251EF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
