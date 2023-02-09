@@ -1965,10 +1965,10 @@
             class: [t.$style.StellarMenu, {_active: t.menuOpened}]
         }, [n("picture", [n("source", {
             class: t.$style.bg,
-            attrs: {srcset: "/images/projects/stellar/menu-bg.webp", type: "image/webp"}
+            attrs: {srcset: "./images/projects/stellar/menu-bg.webp", type: "image/webp"}
         }), t._v(" "), n("img", {
             class: t.$style.bg,
-            attrs: {src: "/images/projects/stellar/menu-bg.png", alt: "background menu"}
+            attrs: {src: "./images/projects/stellar/menu-bg.png", alt: "background menu"}
         })]), t._v(" "), n("div", {
             class: [t.$style.overlay, {
                 _active: t.menuOpened,
