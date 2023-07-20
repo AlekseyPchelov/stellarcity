@@ -1651,7 +1651,7 @@
             }
         }
     }, lt = n(135);
-    var ct = Object(O.a)(st, (function () {
+    var ct = Object(O.a)(st, (function () { // !header
         var t = this, e = t.$createElement, n = t._self._c || e;
         return n("div", {class: [t.$style.wrapper]}, [n("div", {
             ref: "header",
@@ -1659,15 +1659,15 @@
         }, [n("div", {class: t.$style.project}), t._v(" "), n("div", {class: t.$style.actions}, [n("n-link", {
             class: t.$style.fav,
             attrs: {to: "/favourites/"}
-        }, [n("div", {
-            class: [t.$style.favCount, {
-                _active: t.count,
-                _light: t.isLightTheme
-            }]
-        }, [t._v("\n                    " + t._s(t.count) + "\n                ")]), t._v(" "), n("div", {class: t.$style.favText}, [t._v("Избранное")])]), t._v(" "), n("a", {
+        }, ), t._v(" "), n("a", {
             class: t.$style.phone,
-            attrs: {href: "tel:+74956658999", itemprop: "telephone"}
-        }, [t._v("+7 (495) 665 89 99")])], 1)])])
+            attrs: {href: "tel:+78001016367", itemprop: "telephone"}
+        }, [t._v("+7 (800) 101-63-67")]),
+            n("a", {
+                class: t.$style.email,
+                attrs: {href: "mailto: index@kerames.ru", itemprop: "mail"}
+            }, [t._v("index@kerames.ru")])
+        ], 1)])])
     }), [], !1, (function (t) {
         this.$style = lt.default.locals || lt.default
     }), null, null).exports, pt = {
@@ -1701,7 +1701,7 @@
 
     var dt = {
         name: "StellarFooterContent",
-        components: {
+        components: { // !footer
             FooterIda: Object(O.a)(pt, (function () {
                 var t = this, e = t.$createElement, n = t._self._c || e;
                 return n("a", {
@@ -2095,7 +2095,7 @@
         })), 1) : t._e()], 1), t._v(" "), n("a", {
             class: t.$style.phone,
             attrs: {href: "tel:+74956658999"}
-        }, [t._v("+7 (495) 665 89 99")]), t._v(" "), n("div", {class: t.$style.themeButton}, [n("theme-toggle")], 1), t._v(" "), n("a", {
+        }, [t._v("+7 (495) 665 82 99")]), t._v(" "), n("div", {class: t.$style.themeButton}, [n("theme-toggle")], 1), t._v(" "), n("a", {
             class: t.$style.companyLinkMobile,
             attrs: {href: "http://tashir-estate.ru/", target: "_blank"}
         }, [n("div", {class: t.$style.companyLogo}, [n("company-logo")], 1), t._v(" "), n("div", {class: t.$style.companyLinkMobileText}, [t._v("\n                Перейти на сайт "), n("span", {class: [t.$style.companyName, {_light: t.isLightTheme}]}, [t._v("Tashir Estate")])])]), t._v(" "), n("div", {class: t.$style.footer}, [n("a", {
@@ -5024,7 +5024,8 @@
     }, t.exports = r
 }, function (t, e, n) {
     var r = n(14)(!1);
-    r.push([t.i, '.Aside_GBKnc{position:fixed;top:0;left:0;z-index:11;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:5rem 2.3rem 2.3rem 6rem;width:24.7rem;height:100vh;border-right:.1rem solid #192747}.Aside_GBKnc._light{border-color:#d4e5f3}@media only screen and (max-width:920px){.Aside_GBKnc{display:none}}.logoLink_e0S2h{display:block;width:12.3rem}@media screen and (min-aspect-ratio:288/115){.logoLink_e0S2h{width:21.39vh}}.logo_O6HTv{width:100%;height:auto;fill:#fff;-webkit-transition:opacity .26s ease;transition:opacity .26s ease}.logo_O6HTv._light{fill:#222326}@media screen and (min-aspect-ratio:288/115){.logo_O6HTv{width:9.04vh}}.logo_O6HTv:hover{opacity:.7}.asideWrapper_N56wX{padding:1.5rem 0 2rem;margin:auto 0}.menu_CJXIv{display:block;margin:0 0 0 5rem}@media screen and (min-aspect-ratio:288/115){.menu_CJXIv{margin:0 0 4.86vh 8.695vh}}.nav_VXwvM{display:block;margin:1.8rem 0 2.3rem;-webkit-transition:opacity .26s ease,visibility 0s ease;transition:opacity .26s ease,visibility 0s ease}.nav_VXwvM._hidden{opacity:0;visibility:hidden;-webkit-transition:opacity .26s ease,visibility 0s ease .26s;transition:opacity .26s ease,visibility 0s ease .26s}@media screen and (min-aspect-ratio:288/115){.nav_VXwvM{margin:4.86vh 0}}.navLink_UDmGF{display:block;text-decoration:none;font-weight:300;font-size:1.2rem;line-height:1.16;-webkit-transition:color .23s ease;transition:color .23s ease}.navLink_UDmGF._active-link,.navLink_UDmGF:hover{color:#828a9b}.navLink_UDmGF:not(:first-child){margin-top:2rem}@media screen and (min-aspect-ratio:288/115){.navLink_UDmGF:not(:first-child){margin-top:3.478vh}}@media screen and (min-aspect-ratio:288/115){.navLink_UDmGF{margin-top:2.086vh}}.navLink_UDmGF.new:after{background-color:#7251ef;border-radius:5px;color:#fff;content:"NEW";font-size:.8rem;font-weight:700;line-height:normal;margin:-8px 0 0 5px;padding:3px;position:absolute}@-webkit-keyframes blink_MXZin{50%{opacity:0}}@keyframes blink_MXZin{50%{opacity:0}}.themeButton_kr3cy{display:block;width:75%;margin:2.3rem 0 0}@media screen and (min-aspect-ratio:288/115){.themeButton_kr3cy{margin:4.86vh 0}}.company_oQuEH{display:block;width:12.3rem;height:auto;margin:auto 0 0;cursor:pointer;-webkit-transition:opacity .26s ease;transition:opacity .26s ease}@media screen and (min-aspect-ratio:288/115){.company_oQuEH{width:15.13vh;height:5.217vh}}.company_oQuEH:hover{opacity:.7}.project_ZF1HS{max-width:9rem;margin-bottom:0;margin-top:2rem;font-weight:500;font-size:1.2rem;line-height:1.6;color:rgba(44,179,214,.8)}.project_ZF1HS._light{color:#222326}', ""]), r.locals = {
+    r.push([t.i, '.Aside_GBKnc{position:fixed;top:0;left:0;z-index:11;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:5rem 2.3rem 2.3rem 6rem;width:24.7rem;height:100vh;border-right:.1rem solid #192747}.Aside_GBKnc._light{border-color:#d4e5f3}@media only screen and (max-width:920px){.Aside_GBKnc{display:none}}.logoLink_e0S2h{display:block;width:12.3rem}@media screen and (min-aspect-ratio:288/115){.logoLink_e0S2h{width:21.39vh}}.logo_O6HTv{width:100%;height:auto;fill:#fff;-webkit-transition:opacity .26s ease;transition:opacity .26s ease}.logo_O6HTv._light{fill:#222326}@media screen and (min-aspect-ratio:288/115){.logo_O6HTv{width:9.04vh}}.logo_O6HTv:hover{opacity:.7}.asideWrapper_N56wX{padding:1.5rem 0 2rem;margin:auto 0}.menu_CJXIv{display:block;margin:0 0 0 5rem}@media screen and (min-aspect-ratio:288/115){.menu_CJXIv{margin:0 0 4.86vh 8.695vh}}.nav_VXwvM{display:block;margin:1.8rem 0 2.3rem;-webkit-transition:opacity .26s ease,visibility 0s ease;transition:opacity .26s ease,visibility 0s ease}.nav_VXwvM._hidden{opacity:0;visibility:hidden;-webkit-transition:opacity .26s ease,visibility 0s ease .26s;transition:opacity .26s ease,visibility 0s ease .26s}@media screen and (min-aspect-ratio:288/115){.nav_VXwvM{margin:4.86vh 0}}.navLink_UDmGF{display:block;text-decoration:none;font-weight:300;font-size:1.2rem;line-height:1.16;-webkit-transition:color .23s ease;transition:color .23s ease}.navLink_UDmGF._active-link,.navLink_UDmGF:hover{color:#828a9b}.navLink_UDmGF:not(:first-child){margin-top:2rem}@media screen and (min-aspect-ratio:288/115){.navLink_UDmGF:not(:first-child){margin-top:3.478vh}}@media screen and (min-aspect-ratio:288/115){.navLink_UDmGF{margin-top:2.086vh}}.navLink_UDmGF.new:after{background-color:#7251ef;border-radius:5px;color:#fff;content:"NEW";font-size:.8rem;font-weight:700;line-height:normal;margin:-8px 0 0 5px;padding:3px;position:absolute}@-webkit-keyframes blink_MXZin{50%{opacity:0}}@keyframes blink_MXZin{50%{opacity:0}}.themeButton_kr3cy{display:block;width:75%;margin:2.3rem 0 0}@media screen and (min-aspect-ratio:288/115){.themeButton_kr3cy{margin:4.86vh 0}}.company_oQuEH{display:block;width:12.3rem;height:auto;margin:auto 0 0;cursor:pointer;-webkit-transition:opacity .26s ease;transition:opacity .26s ease}@media screen and (min-aspect-ratio:288/115){.company_oQuEH{width:15.13vh;height:5.217vh}}.company_oQuEH:hover{opacity:.7}.project_ZF1HS{max-width:9rem;margin-bottom:0;margin-top:2rem;font-weight:500;font-size:1.2rem;line-height:1.6;color:rgba(44,179,214,.8)}.project_ZF1HS._light{color:#222326}', ""]),
+        r.locals = {
         Aside: "Aside_GBKnc",
         logoLink: "logoLink_e0S2h",
         logo: "logo_O6HTv",
