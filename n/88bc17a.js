@@ -2125,8 +2125,8 @@
             StellarHeader: ct,
             CommonSprite: it,
             StellarSprite: nt,
-            PopupTelegram: Object(O.a)(Pt, (function () {
-                var t = this, e = t.$createElement, r = t._self._c || e;
+            PopupTelegram: Object(O.a)(Pt, (function () { // Вылезавший попап
+                /*var t = this, e = t.$createElement, r = t._self._c || e;
                 return r("transition", {attrs: {name: "fade"}}, [t.active ? r("div", {staticClass: "backdrop"}, [r("div", {staticClass: "box"}, [r("div", {staticClass: "outer-container"}, [r("div", {staticClass: "inner-container"}, [r("img", {
                     staticClass: "fill",
                     attrs: {src: n(309)}
@@ -2157,7 +2157,7 @@
                             return t.$emit("close")
                         }
                     }
-                })], 1)])])]) : t._e()])
+                })], 1)])])]) : t._e()])*/
             }), [], !1, null, "48c3b72c", null).exports
         },
         head: function () {
