@@ -2174,7 +2174,7 @@
         },
         head: function () {
             return Rt({
-                title: "Stellar City - жилой квартал future-класса Стеллар Сити в Сколково",
+                title: "Kerames, ЛСР и кирпич, газобетон, бонолит",
                 __dangerouslyDisableSanitizers: ["script"],
                 script: [{
                     src: "//smartcallback.ru/api/SmartCallBack.js?t=MX9hFX0IpUCDduFlA7aK",
@@ -3006,7 +3006,7 @@
                         return i = t.sent, (a = Jt(e)).$router = i, a.registerModule = Ne, s = De({
                             head: {
                                 htmlAttrs: {lang: "ru"},
-                                title: "Stellar City — квартиры бизнес-класса в Сколково",
+                                title: "Kerames, ЛСР и кирпич, газобетон, бонолит",
                                 meta: [{charset: "utf-8"}, {
                                     name: "viewport",
                                     content: "width=device-width, initial-scale=1"
@@ -3021,7 +3021,7 @@
                                 }, {
                                     hid: "og:title",
                                     property: "og:title",
-                                    content: "Stellar City — квартиры бизнес-класса в Сколково"
+                                    content: "Kerames, ЛСР и кирпич, газобетон, бонолит"
                                 }, {
                                     hid: "og:description",
                                     property: "og:description",
