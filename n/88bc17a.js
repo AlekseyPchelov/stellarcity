@@ -912,7 +912,19 @@
                         name: "О Компании"
                     }, {
                         link: {path: "new"},
-                        name: "Бонолит",
+                        name: "Bonolit",
+                    }, {
+                        link: {path: "new"},
+                        name: "Гемонт",
+                    }, {
+                        link: {path: "new"},
+                        name: "Хольцим",
+                    }, {
+                        link: {path: "new"},
+                        name: "Kreisel",
+                    }, {
+                        link: {path: "new"},
+                        name: "Капарол",
                     }, {
                         link: {path: "filter/index.html"},
                         name: "ISTKULT"
@@ -4893,9 +4905,9 @@
 }, function (t, e) {
     t.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuMTMwODYgNi42MDQ0OUw2LjY1NzIzIDEwLjY0MDZMMTIuMTUyMyA2LjYwNDQ5IiBzdHJva2U9IndoaXRlIi8+Cjwvc3ZnPgo="
 }, function (t, e, n) {
-    t.exports = "n/img/logo-black-text.47c5ca4.png"
+    t.exports = "images/logo-kerames.png"
 }, function (t, e, n) {
-    t.exports = "n/img/logo-text.e03f9ef.png"
+    t.exports = "images/logo-kerames.png"
 }, function (t, e, n) {
     "use strict";
     n(171)
@@ -4910,7 +4922,7 @@
         circle: "circle_X0CMo",
         close: "close_rlWDA"
     }, t.exports = r
-}, function (t, e, n) {
+}, function (t, e, n) {asdsadad
     "use strict";
     n(172)
 }, function (t, e, n) {
