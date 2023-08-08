@@ -905,35 +905,41 @@
                     {
                         link: {path: "/", hash: "#intro"},
                         exact: !0,
-                        name: "Главная"
+                        name: "ГЛАВНАЯ"
+                    }, {
+                        link: {path: "new"},
+                        name: "БОНОЛИТ",
+                        subname: "Газобетонные блоки"
+                    }, {
+                        link: {path: "filter/index.html"},
+                        name: "ИСКУЛЬТ-ИТОНГ",
+                        subname: "Газобетонные блоки"
+                    }, {
+                        link: {path: "parking/index.html"},
+                        name: "ЛСР",
+                        subname: "Кирпич"
+                    }, {
+                        link: {path: "new"},
+                        name: "ХОЛЬЦИМ",
+                        subname: "Цемент"
+                    }, {
+                        link: {path: "new"},
+                        name: "КАПАРОЛ",
+                        subname: "Краски"
+                    }, {
+                        link: {path: "new"},
+                        name: "КРАЙЗЕЛЬ, ПЕРФЕКТА",
+                        subname: "Штукатурки, Клей, Шпаклёвка"
+                    }, {
+                        link: {path: "new"},
+                        name: "КЕРАМЗИТ",
                     }, {
                         link: {path: "/", hash: "#about"},
                         exact: !0,
-                        name: "О Компании"
-                    }, {
-                        link: {path: "new"},
-                        name: "Bonolit",
-                    }, {
-                        link: {path: "new"},
-                        name: "Гемонт",
-                    }, {
-                        link: {path: "new"},
-                        name: "Хольцим",
-                    }, {
-                        link: {path: "new"},
-                        name: "Kreisel",
-                    }, {
-                        link: {path: "new"},
-                        name: "Капарол",
-                    }, {
-                        link: {path: "filter/index.html"},
-                        name: "ISTKULT"
-                    }, {
-                        link: {path: "parking/index.html"},
-                        name: "ЛСР и кирпич"
+                        name: "О КОМПАНИИ"
                     }, {
                         link: {path: "contacts/index.html"},
-                        name: "Контакты"
+                        name: "КОНТАКТЫ"
                     }
                 ]
             }
@@ -990,7 +996,10 @@
                         return t.checkJump(e)
                     }
                 }
-            }, [t._v("\n                " + t._s(e.name) + "\n            ")])
+            }, [
+                t._v("\n                " + t._s(e.name) + "\n            "),
+                r("div", {class: "menu__subname"}, [t._v(!e.subname ? "" : e.subname)], 1)
+            ])
         })), 1), t._v(" "), r("div", {class: t.$style.themeButton}, [r("theme-toggle")], 1)], 1), t._v(" "), r("a", {
             class: t.$style.company,
             attrs: {href: "https://tashir-estate.ru/", target: "_blank"}

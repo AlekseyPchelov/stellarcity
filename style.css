@@ -101,3 +101,10 @@ body {
   background: #ffffff;
   border: 0 solid #ffffff;
 }
+.menu__subname {
+  text-decoration: none;
+  opacity: 90%;
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 1.16;
+}
