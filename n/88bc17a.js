@@ -510,7 +510,7 @@
                 }))
             }))
         },
-        routes: [{
+        routes: [{ // роуты
             path: "/contacts", component: function () {
                 return Object(h.m)(Promise.all([n.e(0), n.e(13)]).then(n.bind(null, 1088)))
             }, name: "contacts"
@@ -534,6 +534,10 @@
             path: "/new", component: function () {
                 return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
             }, name: "new"
+        }, {
+            path: "/bonolit", component: function () {
+                return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
+            }, name: "bonolit"
         }, {
             path: "/parking", component: function () {
                 return Object(h.m)(Promise.all([n.e(0), n.e(1), n.e(3), n.e(22)]).then(n.bind(null, 1083)))
@@ -907,7 +911,7 @@
                         exact: !0,
                         name: "ГЛАВНАЯ"
                     }, {
-                        link: {path: "new"},
+                        link: {path: "/bonolit"},
                         name: "БОНОЛИТ",
                         subname: "Газобетонные блоки"
                     }, {
@@ -919,19 +923,19 @@
                         name: "ЛСР",
                         subname: "Кирпич"
                     }, {
-                        link: {path: "new"},
+                        link: {path: "holcim"},
                         name: "ХОЛЬЦИМ",
                         subname: "Цемент"
                     }, {
-                        link: {path: "new"},
-                        name: "КАПАРОЛ",
-                        subname: "Краски"
-                    }, {
-                        link: {path: "new"},
+                        link: {path: "kraisel"},
                         name: "КРАЙЗЕЛЬ, ПЕРФЕКТА",
                         subname: "Штукатурки, Клей, Шпаклёвка"
                     }, {
-                        link: {path: "new"},
+                        link: {path: "kaparol"},
+                        name: "КАПАРОЛ",
+                        subname: "Краски"
+                    }, {
+                        link: {path: "keramzit"},
                         name: "КЕРАМЗИТ",
                     }, {
                         link: {path: "/", hash: "#about"},
@@ -1764,11 +1768,11 @@
                 name: "Преимущества"
             }, {link: {path: "/", hash: "#finish"}, name: "Интерьеры"}]
         }, {
-            link: {path: "/new/"},
+            link: {path: "/bonolit/"},
             isScrollTop: !0,
             name: "Новый корпус",
             subLinks: [],
-            classLink: "new"
+            classLink: "bonolit"
         }, {
             link: {path: "/filter/"},
             name: "Выбрать квартиру",
@@ -1815,7 +1819,7 @@
             }, {link: {path: "/", hash: "#visual"}, name: "Визуальный выбор"}]
         }, {link: {path: "/post/"}, name: "Новости", order: 4, subLinks: [{link: {path: "/promo/"}, name: "Акции"}]}],
         vt = [{link: {path: "/progress/"}, name: "Ход строительства", order: 5}, {
-            link: {path: "/new/"},
+            link: {path: "/bonolit/"},
             name: "Новый корпус",
             order: 2
         }, {link: {path: "/parking/"}, name: "Паркинг", order: 3}, {
@@ -4914,9 +4918,9 @@
 }, function (t, e) {
     t.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuMTMwODYgNi42MDQ0OUw2LjY1NzIzIDEwLjY0MDZMMTIuMTUyMyA2LjYwNDQ5IiBzdHJva2U9IndoaXRlIi8+Cjwvc3ZnPgo="
 }, function (t, e, n) {
-    t.exports = "images/logo-kerames.png"
+    t.exports = "http://test.kerames.ru/images/logo-kerames.png"
 }, function (t, e, n) {
-    t.exports = "images/logo-kerames.png"
+    t.exports = "http://test.kerames.ru/images/logo-kerames.png"
 }, function (t, e, n) {
     "use strict";
     n(171)
