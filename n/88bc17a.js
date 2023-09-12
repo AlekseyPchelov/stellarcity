@@ -996,8 +996,9 @@
                 class: [t.$style.navLink, e.classLink ? e.classLink : ""],
                 attrs: {to: e.link, exact: e.exact || !1},
                 nativeOn: {
-                    click: function (n) {
-                        return t.checkJump(e)
+                    click: function (n) { // Редирект на нужную страницу
+                        window.location.href = e.link.path;
+                        console.log(e.link.path);
                     }
                 }
             }, [
