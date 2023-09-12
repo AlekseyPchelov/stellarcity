@@ -997,8 +997,12 @@
                 attrs: {to: e.link, exact: e.exact || !1},
                 nativeOn: {
                     click: function (n) { // Редирект на нужную страницу
-                        window.location.href = e.link.path;
-                        console.log(e.link.path);
+                        if (!!e.link.hash) {
+                            console.log(e.link.path+e.link.hash);
+                            return t.checkJump(e)
+                        } else {
+                            window.location.href = e.link.path;
+                        }
                     }
                 }
             }, [
