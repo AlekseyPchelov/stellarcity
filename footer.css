@@ -1,0 +1,61 @@
+.item_Hv72G {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.item_Hv72G p {
+    margin: 0;
+}
+
+.name_YMAOH {
+    color: #5f697c;
+    font-size: .9rem;
+    line-height: 1.2;
+    margin-bottom: 0.9rem;
+}
+
+.footer_s3-CS {
+    padding-left: 24.7rem;
+    position: relative;
+    z-index: 1;
+    margin-top: 8.8rem
+}
+
+.FooterContent_MhTfU {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #192747;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.3rem;
+    padding-top: 3.5rem;
+}
+
+.FooterContent_MhTfU._light {
+    border-color: #d4e5f3
+}
+
+
+@media only screen and (max-width: 920px) {
+    .FooterContent_MhTfU {
+        padding-top: 21px;
+        padding-bottom: 24px
+    }
+}
+
+.FooterContent_MhTfU._no-border {
+    border-top: 0
+}
