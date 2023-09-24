@@ -539,13 +539,17 @@
                 return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
             }, name: "bonolit"
         }, {
+            path: "/kraisel", component: function () {
+                return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
+            }, name: "kraisel"
+        }, {
             path: "/parking", component: function () {
                 return Object(h.m)(Promise.all([n.e(0), n.e(1), n.e(3), n.e(22)]).then(n.bind(null, 1083)))
             }, name: "parking"
         }, {
-            path: "/post", component: function () {
+            path: "/kraisel", component: function () {
                 return Object(h.m)(Promise.all([n.e(3), n.e(24)]).then(n.bind(null, 1089)))
-            }, name: "post"
+            }, name: "kraisel"
         }, {
             path: "/privacy", component: function () {
                 return Object(h.m)(n.e(26).then(n.bind(null, 1097)))
@@ -997,11 +1001,12 @@
                 attrs: {to: e.link, exact: e.exact || !1},
                 nativeOn: {
                     click: function (n) { // Редирект на нужную страницу
-                        if (!!e.link.hash) {
+                        console.log(document.location.pathname);
+                        if (!!e.link.hash && document.location.pathname === '/') {
                             console.log(e.link.path+e.link.hash);
                             return t.checkJump(e)
                         } else {
-                            window.location.href = e.link.path;
+                            window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
                         }
                     }
                 }
@@ -1791,7 +1796,7 @@
                 link: {name: "filter", query: {rooms: "3"}, params: {changeFilter: !0}},
                 name: "Трехкомнатные"
             }, {link: {path: "/", hash: "#visual"}, name: "Визуальный выбор"}]
-        }, {link: {path: "/parking/"}, name: "Паркинг", subLinks: []}, {
+        }, {link: {path: "/kraisel/"}, name: "Паркинг",              isScrollTop: !0,subLinks: [],classLink: "kraisel"}, {
             link: {path: "/purchase/"},
             name: "Способы покупки",
             subLinks: [{link: {path: "/purchase/mortgage/"}, name: "Ипотека от 0,1%"}]
@@ -1827,7 +1832,7 @@
             link: {path: "/bonolit/"},
             name: "Новый корпус",
             order: 2
-        }, {link: {path: "/parking/"}, name: "Паркинг", order: 3}, {
+        }, {link: {path: "/kraisel/"}, name: "Паркинг", order: 3}, {
             link: {path: "/documents/"},
             name: "Документы",
             order: 6
