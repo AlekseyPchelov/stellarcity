@@ -523,10 +523,6 @@
                 return Object(h.m)(Promise.all([n.e(3), n.e(6), n.e(15)]).then(n.bind(null, 1087)))
             }, name: "favourites"
         }, {
-            path: "/filter", component: function () {
-                return Object(h.m)(Promise.all([n.e(0), n.e(3), n.e(6), n.e(16)]).then(n.bind(null, 1085)))
-            }, name: "filter"
-        }, {
             path: "/flats", component: function () {
                 return Object(h.m)(n.e(18).then(n.bind(null, 1094)))
             }, name: "flats"
@@ -540,16 +536,16 @@
             }, name: "bonolit"
         }, {
             path: "/kraisel", component: function () {
-                return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
+                return Object(h.m)(Promise.all([n.e(0), n.e(2), n.e(4), n.e(31)]).then(n.bind(null, 1086)))
             }, name: "kraisel"
+        }, {
+            path: "/istkult-ytong/", component: function () {
+                return Object(h.m)(Promise.all([n.e(0), n.e(2), n.e(4), n.e(31)]).then(n.bind(null, 1086)))
+            }, name: "istkult-ytong"
         }, {
             path: "/parking", component: function () {
                 return Object(h.m)(Promise.all([n.e(0), n.e(1), n.e(3), n.e(22)]).then(n.bind(null, 1083)))
             }, name: "parking"
-        }, {
-            path: "/kraisel", component: function () {
-                return Object(h.m)(Promise.all([n.e(3), n.e(24)]).then(n.bind(null, 1089)))
-            }, name: "kraisel"
         }, {
             path: "/privacy", component: function () {
                 return Object(h.m)(n.e(26).then(n.bind(null, 1097)))
@@ -919,7 +915,7 @@
                         name: "БОНОЛИТ",
                         subname: "Газобетонные блоки"
                     }, {
-                        link: {path: "filter/index.html"},
+                        link: {path: "/istkult-ytong"},
                         name: "ИСКУЛЬТ-ИТОНГ",
                         subname: "Газобетонные блоки"
                     }, {
@@ -1780,7 +1776,7 @@
         }, {
             link: {path: "/bonolit/"},
             isScrollTop: !0,
-            name: "Новый корпус",
+            name: "Bonolit",
             subLinks: [],
             classLink: "bonolit"
         }, {
@@ -1796,11 +1792,28 @@
                 link: {name: "filter", query: {rooms: "3"}, params: {changeFilter: !0}},
                 name: "Трехкомнатные"
             }, {link: {path: "/", hash: "#visual"}, name: "Визуальный выбор"}]
-        }, {link: {path: "/kraisel/"}, name: "Паркинг",              isScrollTop: !0,subLinks: [],classLink: "kraisel"}, {
+        }, {
+            link: {path: "/kraisel/"},
+            name: "Паркинг",
+            isScrollTop: !0,
+            subLinks: [],
+            classLink: "kraisel"
+        }, {
+            link: {path: "/istkult-ytong/"},
+            name: "Паркинг",
+            isScrollTop: !0,
+            subLinks: [],
+            classLink: "istkult-ytong"
+        }, {
             link: {path: "/purchase/"},
             name: "Способы покупки",
             subLinks: [{link: {path: "/purchase/mortgage/"}, name: "Ипотека от 0,1%"}]
-        }, {link: {path: "/post/"}, name: "Новости", subLinks: [{link: {path: "/promo/"}, name: "Акции"}]}]),
+        }, {
+            link: {path: "/post/"},
+            name: "Новости",
+            subLinks: [{link: {path: "/promo/"}, name: "Акции"}]
+        }
+        ]),
         gt = [{link: {path: "/progress/"}, name: "Ход строительства"}, {
             link: {path: "/documents/"},
             name: "Документы"
@@ -1828,11 +1841,19 @@
                 name: "Трехкомнатные"
             }, {link: {path: "/", hash: "#visual"}, name: "Визуальный выбор"}]
         }, {link: {path: "/post/"}, name: "Новости", order: 4, subLinks: [{link: {path: "/promo/"}, name: "Акции"}]}],
-        vt = [{link: {path: "/progress/"}, name: "Ход строительства", order: 5}, {
+        vt = [{
+            link: {path: "/progress/"},
+            name: "Ход строительства",
+            order: 5
+        }, {
             link: {path: "/bonolit/"},
             name: "Новый корпус",
             order: 2
-        }, {link: {path: "/kraisel/"}, name: "Паркинг", order: 3}, {
+        }, {
+            link: {path: "/kraisel/"},
+            name: "Паркинг",
+            order: 3
+        }, {
             link: {path: "/documents/"},
             name: "Документы",
             order: 6
@@ -4412,7 +4433,7 @@
             silent: !0,
             performance: !1
         });
-        var w = i.default.config.errorHandler || console.error;
+        var w = "No catch error";//i.default.config.errorHandler || console.error;
 
         function v(t, e, n) {
             for (var r = function (t) {
@@ -4780,11 +4801,13 @@
                                     var e = h.afterEach((function (t, n) {
                                         e(), l()
                                     }));
+                                    console.log(t);
                                     h.push(t, void 0, (function (t) {
                                         t && w(t)
                                     }))
                                 } else l()
                             }));
+                            console.log(h);
                         case 24:
                         case"end":
                             return t.stop()
