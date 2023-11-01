@@ -4056,6 +4056,7 @@ body._no-animation * {
     background-position: 50%
 }
 
+
 .LazyImage_s6vmM, .main-image__right {
     width: 100%;
     height: 100%;
@@ -4575,7 +4576,7 @@ body._no-animation * {
 .sUrban_Si9RN .decorWord_3WXw1 {
     position: absolute;
     top: 0;
-    left: -44rem;
+    left: -23rem;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     -webkit-transform-origin: right top;

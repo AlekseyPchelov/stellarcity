@@ -535,9 +535,25 @@
                 return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
             }, name: "bonolit"
         }, {
+            path: "/lsr", component: function () {
+                return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
+            }, name: "lsr"
+        }, {
+            path: "/holcim", component: function () {
+                return Object(h.m)(Promise.all([n.e(1), n.e(2), n.e(5), n.e(20)]).then(n.bind(null, 1080)))
+            }, name: "holcim"
+        }, {
             path: "/kraisel", component: function () {
                 return Object(h.m)(Promise.all([n.e(0), n.e(2), n.e(4), n.e(31)]).then(n.bind(null, 1086)))
             }, name: "kraisel"
+        }, {
+            path: "/caparol", component: function () {
+                return Object(h.m)(Promise.all([n.e(0), n.e(2), n.e(4), n.e(31)]).then(n.bind(null, 1086)))
+            }, name: "caparol"
+        }, {
+            path: "/keramzit", component: function () {
+                return Object(h.m)(Promise.all([n.e(0), n.e(2), n.e(4), n.e(31)]).then(n.bind(null, 1086)))
+            }, name: "keramzit"
         }, {
             path: "/istkult-ytong/", component: function () {
                 return Object(h.m)(Promise.all([n.e(0), n.e(2), n.e(4), n.e(31)]).then(n.bind(null, 1086)))
@@ -919,23 +935,23 @@
                         name: "ИСКУЛЬТ-ИТОНГ",
                         subname: "Газобетонные блоки"
                     }, {
-                        link: {path: "parking/index.html"},
+                        link: {path: "/lsr"},
                         name: "ЛСР",
                         subname: "Кирпич"
                     }, {
-                        link: {path: "holcim"},
+                        link: {path: "/holcim"},
                         name: "ХОЛЬЦИМ",
                         subname: "Цемент"
                     }, {
-                        link: {path: "kraisel"},
+                        link: {path: "/kraisel"},
                         name: "КРАЙЗЕЛЬ, ПЕРФЕКТА",
                         subname: "Штукатурки, Клей, Шпаклёвка"
                     }, {
-                        link: {path: "kaparol"},
+                        link: {path: "/caparol"},
                         name: "КАПАРОЛ",
                         subname: "Краски"
                     }, {
-                        link: {path: "keramzit"},
+                        link: {path: "/keramzit"},
                         name: "КЕРАМЗИТ",
                     }, {
                         link: {path: "/", hash: "#about"},
@@ -3073,7 +3089,7 @@
                                 }, {
                                     name: "facebook-domain-verification",
                                     content: "9ffilx6v36d285ictdpn10niyp4nrk"
-                                }, {name: "yandex-verification", content: "ac2344a5fae79c32"}],
+                                }],
                                 link: [{rel: "icon", type: "image/x-icon", href: "/assets/favicon.ico"}],
                                 __dangerouslyDisableSanitizers: ["script"],
                                 script: [{
