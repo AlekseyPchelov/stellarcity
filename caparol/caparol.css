@@ -3214,10 +3214,21 @@ body._no-animation * {
     display: block;
     text-decoration: none;
     font-weight: 300;
-    font-size: 1.2rem;
-    line-height: 1.16;
+    font-size: 1.3rem;
+    line-height: 1.1;
     -webkit-transition: color .23s ease;
     transition: color .23s ease
+}
+@media (min-width: 2200px) { /*распространить на остальные css и доделать затемнение, z-index */
+    .navLink_UDmGF {
+        display: block;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 1.7rem;
+        line-height: 1.16;
+        -webkit-transition: color .23s ease;
+        transition: color .23s ease
+    }
 }
 
 .navLink_UDmGF._active-link, .navLink_UDmGF:hover {
@@ -3912,6 +3923,7 @@ body._no-animation * {
 }
 
 .sFirstLeft_aE4L- .decorWordTop_K5i5\+ {
+    z-index: 14;
     padding-top: 2rem;
     padding-bottom: 2rem;
     -ms-flex-item-align: end;
@@ -4050,7 +4062,7 @@ body._no-animation * {
 .LazyImage_s6vmM, .main-image {
     width: 100%;
     height: 100%;
-    background-image: url('../images/template-main.webp');
+    background-image: url('../images/linnimax.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%

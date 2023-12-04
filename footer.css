@@ -13,11 +13,12 @@
 
 .item_Hv72G p {
     margin: 0;
+    font-size: 1.2rem;
 }
 
 .name_YMAOH {
     color: #5f697c;
-    font-size: .9rem;
+    font-size: 1.2rem;
     line-height: 1.2;
     margin-bottom: 0.9rem;
 }
@@ -58,4 +59,17 @@
 
 .FooterContent_MhTfU._no-border {
     border-top: 0
+}
+
+@media (min-width: 2200px) {
+    .name_YMAOH {
+        color: #5f697c;
+        font-size: 1.4rem;
+        line-height: 1.2;
+        margin-bottom: 0.9rem;
+    }
+    .item_Hv72G p {
+        font-size: 1.4rem;
+        margin: 0;
+    }
 }

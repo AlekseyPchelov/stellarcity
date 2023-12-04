@@ -1765,6 +1765,7 @@
                     if (t.target === t.currentTarget || t.timeStamp >= o || t.timeStamp <= 0 || t.target.ownerDocument !== document) return i.apply(this, arguments)
                 }
             }
+            console.log(t);
             Or.addEventListener(t, e, rt ? {capture: n, passive: r} : n)
         }
 

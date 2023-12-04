@@ -3912,6 +3912,7 @@ body._no-animation * {
 }
 
 .sFirstLeft_aE4L- .decorWordTop_K5i5\+ {
+    z-index: 14;
     padding-top: 2rem;
     padding-bottom: 2rem;
     -ms-flex-item-align: end;

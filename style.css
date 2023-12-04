@@ -105,6 +105,16 @@ body {
   text-decoration: none;
   opacity: 90%;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   line-height: 1.16;
+}
+
+@media (min-width: 2200px) {
+  .menu__subname {
+    text-decoration: none;
+    opacity: 90%;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.16;
+  }
 }

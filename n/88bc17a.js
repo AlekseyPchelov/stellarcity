@@ -940,7 +940,7 @@
                         subname: "Кирпич"
                     }, {
                         link: {path: "/holcim"},
-                        name: "ХОЛЬЦИМ",
+                        name: "ЦЕМЕНТУМ-ХОЛЬЦИМ",
                         subname: "Цемент"
                     }, {
                         link: {path: "/kraisel"},
@@ -948,7 +948,7 @@
                         subname: "Штукатурки, Клей, Шпаклёвка"
                     }, {
                         link: {path: "/caparol"},
-                        name: "КАПАРОЛ",
+                        name: "LINNIMAX-CAPAROL",
                         subname: "Краски"
                     }, {
                         link: {path: "/keramzit"},
@@ -1668,7 +1668,7 @@
         computed: at(at(at(at({}, Object(a.e)("favorite", ["count"])), Object(a.e)("menu", ["menuOpened"])), Object(a.e)("global", ["isLightTheme"])), {}, {
             headerClasses: function () {
                 return {
-                    _fill: this.isScrolling && !this.menuOpened,
+                    _fill: !this.menuOpened,
                     _active: this.isInit,
                     "_opened-menu": this.menuOpened,
                     _light: this.isLightTheme,
@@ -1784,56 +1784,44 @@
         }), null, null).exports, bt = (n(50), [{
             link: {path: "/"},
             isScrollTop: !0,
-            name: "О проекте",
-            subLinks: [{link: {path: "/", hash: "#about"}, name: "Расположение"}, {
-                link: {path: "/", hash: "#advantages"},
-                name: "Преимущества"
-            }, {link: {path: "/", hash: "#finish"}, name: "Интерьеры"}]
+            name: "Главная",
+            subLinks: [
+                {link: {path: "/", hash: "#about"}, name: "О Компании"},
+            ]
         }, {
             link: {path: "/bonolit/"},
             isScrollTop: !0,
-            name: "Bonolit",
+            name: "Бонолит",
             subLinks: [],
             classLink: "bonolit"
         }, {
-            link: {path: "/filter/"},
-            name: "Выбрать квартиру",
-            subLinks: [{
-                link: {name: "filter", query: {rooms: "0,1"}, params: {changeFilter: !0}},
-                name: "Однокомнатные"
-            }, {
-                link: {name: "filter", query: {rooms: "2"}, params: {changeFilter: !0}},
-                name: "Двухкомнатные"
-            }, {
-                link: {name: "filter", query: {rooms: "3"}, params: {changeFilter: !0}},
-                name: "Трехкомнатные"
-            }, {link: {path: "/", hash: "#visual"}, name: "Визуальный выбор"}]
-        }, {
-            link: {path: "/kraisel/"},
-            name: "Паркинг",
-            isScrollTop: !0,
-            subLinks: [],
-            classLink: "kraisel"
-        }, {
             link: {path: "/istkult-ytong/"},
-            name: "Паркинг",
             isScrollTop: !0,
+            name: "Искульт-Итонг",
             subLinks: [],
             classLink: "istkult-ytong"
         }, {
-            link: {path: "/purchase/"},
-            name: "Способы покупки",
-            subLinks: [{link: {path: "/purchase/mortgage/"}, name: "Ипотека от 0,1%"}]
+            link: {path: "/lsr/"},
+            name: "ЛСР",
+            isScrollTop: !0,
+            subLinks: [],
+            classLink: "lsr"
         }, {
-            link: {path: "/post/"},
-            name: "Новости",
-            subLinks: [{link: {path: "/promo/"}, name: "Акции"}]
+            link: {path: "/holcim/"},
+            name: "Цементум-Хольцим",
+            subLinks: []
+        }, {
+            link: {path: "/kraisel/"},
+            name: "Крайзель, Перфекта",
+            subLinks: []
         }
         ]),
-        gt = [{link: {path: "/progress/"}, name: "Ход строительства"}, {
-            link: {path: "/documents/"},
-            name: "Документы"
-        }, {link: {path: "/contacts/"}, name: "Контакты"}], wt = [{
+        gt = [
+            {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
+            {link: {path: "/contacts/"}, name: "Контакты"},
+            {link: {path: "/keramzit/"}, name: "Керамзит"},
+        ],
+        wt = [{
             link: {path: "/"},
             isScrollTop: !0,
             name: "О проекте",
@@ -2113,7 +2101,7 @@
                 return this.scrollTop > 10
             }, headerClasses: function () {
                 return {
-                    _fill: this.isScrolling && !this.menuOpened,
+                    _fill: !this.menuOpened,
                     "_opened-menu": this.menuOpened,
                     _light: this.isLightTheme
                 }
