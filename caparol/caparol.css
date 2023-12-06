@@ -4071,7 +4071,7 @@ body._no-animation * {
 .LazyImage_s6vmM, .main-image__right {
     width: 100%;
     height: 100%;
-    background-image: url('../images/template-right.webp');
+    background-image: url('../images/fura-right.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%
@@ -4367,7 +4367,7 @@ body._no-animation * {
 }
 
 .sSpace_kZ6qJ .imageWrapper_agwWb {
-    padding-top: 33%
+    padding-top: 38%
 }
 
 @media only screen and (max-width: 920px) {
@@ -4385,8 +4385,8 @@ body._no-animation * {
 
 .sSpace_kZ6qJ .buttonWrap_hJ0zY {
     position: absolute;
-    top: 3rem;
-    left: 20%;
+    top: 2rem;
+    left: 2%;
     z-index: 2
 }
 
@@ -6488,4 +6488,34 @@ body._no-animation * {
 .tg-icon[data-v-48c3b72c] {
     height: 1.5em;
     margin-left: 1em
+}
+
+.text_bold {
+    font-weight: bold;
+}
+
+.delimeter-line {
+    border-top: 1px solid #ffeec7;
+    margin: 1rem 0 1rem 0;
+}
+
+.modal__color {
+    color: black;
+    --bs-modal-bg: none;
+}
+.modal-content__background {
+    background-image: linear-gradient(328deg, rgb(33, 39, 52), rgb(84, 50, 77));
+}
+.modal-header__border-bottom {
+    border-bottom: var(--bs-modal-header-border-width) solid #312a3c;
+}
+.modal-footer__border-top {
+    border-top: var(--bs-modal-header-border-width) solid #312a3c;
+}
+.modal__button-send {
+    color: #ffeec7;
+    background: transparent;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    border: 1px solid #ffeec7;
 }

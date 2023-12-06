@@ -944,7 +944,7 @@
                         subname: "Цемент"
                     }, {
                         link: {path: "/kraisel"},
-                        name: "КРАЙЗЕЛЬ, ПЕРФЕКТА",
+                        name: "KREISEL, PERFEKTA",
                         subname: "Штукатурки, Клей, Шпаклёвка"
                     }, {
                         link: {path: "/caparol"},
@@ -1668,7 +1668,9 @@
         computed: at(at(at(at({}, Object(a.e)("favorite", ["count"])), Object(a.e)("menu", ["menuOpened"])), Object(a.e)("global", ["isLightTheme"])), {}, {
             headerClasses: function () {
                 return {
-                    _fill: !this.menuOpened,
+                    _fill: this.isScrolling
+                        || !this.menuOpened
+                        && (window.location.pathname == '/' || window.location.pathname == '/istkult-ytong/' || window.location.pathname == '/bonolit/'),
                     _active: this.isInit,
                     "_opened-menu": this.menuOpened,
                     _light: this.isLightTheme,
@@ -1812,7 +1814,7 @@
             subLinks: []
         }, {
             link: {path: "/kraisel/"},
-            name: "Крайзель, Перфекта",
+            name: "Kreisel, Perfekta",
             subLinks: []
         }
         ]),
@@ -4805,7 +4807,6 @@
                                     var e = h.afterEach((function (t, n) {
                                         e(), l()
                                     }));
-                                    console.log(t);
                                     h.push(t, void 0, (function (t) {
                                         t && w(t)
                                     }))

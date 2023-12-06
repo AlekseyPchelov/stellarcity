@@ -67,6 +67,8 @@
       <link rel="preload" href="../n/4485c91.js" as="script">
       <link rel="stylesheet" href="../style.css">
       <link rel="stylesheet" href="../footer.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
       <style data-vue-ssr-id="0902334e:0 5e717e52:0 3191d5ad:0 052894a7:0 37f11f46:0 c9df3cfa:0 c8f01442:0 5ccf8a5f:0 1c83a076:0 b91ff2a2:0 e60aa7f6:0 54f0bb86:0 5b7fbbe4:0 3388058e:0 4f7518bd:0 65122066:0 2235ec0a:0 0f4e3be6:0 10c219c5:0 560500cf:0 3f4264f6:0 11d4f937:0 42db7cf6:0 3dfc6e72:0 1b98d987:0 35eeb516:0 250154b6:0 a7f33806:0 600771eb:0 1aa7adc7:0 400dfa4c:0 154e8bc0:0 7a36ce36:0 e380b436:0 499facfc:0 718c299a:0">
           </style>
       <link rel="stylesheet" href="kraisel.css">
@@ -80,11 +82,23 @@
           <div class="cross-decor"></div>
           <div>
               <div class="title_5GRvj _light-3f">
-                  <span>Штукатурка, клей, шпаклёвка </span> КРАЙЗЕЛЬ, ПЕРФЕКТА
+                  <span>Штукатурка, клей, шпаклёвка </span> KREISEL, PERFEKTA
               </div>
               <div class="change_OQZX+">
                   <div class="buttonWrap_hJ0zY">
-                      <a href="https://sm.lsr.ru/msk/catalog/kirpich-gazobeton/" class="button_p62wY button button-bordered-2">Узнать цену</a></div>
+                      <a href="../pdf/PERFECTA_KERAMES_PRICE.pdf"
+                         class="button_p62wY button button-bordered-2">
+                          Прайс-лист KREISEL
+                      </a>
+                      <a href="../pdf/PERFECTA_KERAMES_PRICE.pdf"
+                         class="button_p62wY button button-bordered-2">
+                          Прайс-лист PERFEKTA
+                      </a>
+                      <a href="#"
+                         class="button_p62wY button button-bordered-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Рассчитать скидку
+                      </a>
+                  </div>
                   <div class="imageWrapper_agwWb image-wrap">
                       <div class="image">
                           <div class="LazyImage_s6vmM image-lazy">
@@ -94,6 +108,47 @@
                   </div>
               </div>
           </div>
+
+          <!-- Модальное окно -->
+          <div class="modal modal-lg fade modal__color" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content modal-content__background">
+                      <form action="../mailer/send.php" method="POST">
+                          <div class="modal-header modal-header__border-bottom">
+                              <h1 class="modal-title fs-4" id="exampleModalLabel">Оформление заказа</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <div class="input-group mb-3">
+                                  <span class="input-group-text">E-mail</span>
+                                  <input type="text" name="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                              </div>
+                              <div class="input-group mb-3">
+                                  <span class="input-group-text">Наименование товара</span>
+                                  <input type="text" name="productName" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                              </div>
+                              <div class="input-group mb-3">
+                                  <span class="input-group-text">Количество товара</span>
+                                  <input type="text" name="productCount" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                              </div>
+                              <div class="input-group mb-3">
+                                  <span class="input-group-text">Адрес доставки/самовывоз</span>
+                                  <input type="text" name="deliveryAddress" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                              </div>
+                              <div class="input-group mb-3">
+                                  <span class="input-group-text">Предполагаемая дата поставки/не известно</span>
+                                  <input type="text" name="deliveryDate" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                              </div>
+                          </div>
+                          <div class="modal-footer modal-footer__border-top">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                              <button type="submit" class="btn modal__button-send" name="sendEmail">Отправить</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+
       </section>
 
 
@@ -105,10 +160,26 @@
                           Правильное впечатление с первого шага
                       </div>
                       <div class="text_Mmh-G">
-                          - (Список!)
-                          Эргономичные, авторские входные группы станут отличным первым впечатлением
-                          гостей и будущих резидентов Stellar City. Выход на новый уровень ощущается
-                          с первого входа.
+                          Наша компания более 10 лет является официальным дистрибьютором торговых марок KREISEL и
+                          PERFEKTA и занимает лидирующую позицию по отгрузкам. За это время отлажен механизм
+                          взаимодействия с заводами в части оперативности и приоритета отгрузок. Существует возможность
+                          рассмотрения товарного кредита для наших партнеров на индивидуальных условиях. Нас любят за
+                          оперативность решения проблем и круглосуточную поддержку отгрузок.
+                          <br>
+                          В качестве официального дистрибьютора заводов KREISEL и PERFEKTA предлагаем сухие смеси,
+                          краски, системы утепления и другие материалы по специальным ценам.
+                          <br>
+                          <div class="delimeter-line"></div>
+                          ООО «КРАЙЗЕЛЬ РУС» входит в группу компаний Fixit Gruppe, объединяющую торговые марки FIXIT,
+                          HASIT, GREUTOL, KREISEL и RÖFIX. Деятельность предприятий группы охватывает многие сегменты рынка
+                          строительных материалов: от разработки собственных месторождений сырья до специализированных
+                          комплексных решений для нового строительства, реконструкции и реставрации любых зданий.
+                          <br>
+                          Сегодня KREISEL — один из ведущих производителей строительных смесей в Восточной Европе. Начало
+                          деятельности компании восходит к 1976 году, когда Норберт Крайзель построил свой первый завод в
+                          Германии. KREISEL является одним из лидеров сектора строительной химии — производит клеевые
+                          составы для плитки и теплоизоляционных систем, цементные, и полимерные штукатурки, шпаклевки,
+                          смеси для устройства пола, краски и т.д.
                       </div>
                   </div>
               </div>
@@ -117,12 +188,25 @@
                                                    class="_active-link button button-bordered-2">Выбрать
                       квартиру</a></div>
                   <div class="text_2_ZH22e">
-                      В дизайнерской отделке входных групп использован натуральный мрамор, керамогранит,
-                      полудрагоценный слэб, а умное зонирование комфортно разместит гостей резидентов.
+                      Компания «Экс Морэ» основана в 1999 году и является крупным производителем сухих строительных
+                      смесей. Наша компания зарекомендовала себя в качестве надежного поставщика на рынке строительных
+                      материалов.
+                      <br>
+                      Ассортимент компании включает два основных направления: PERFEKTA - общестроительные смеси и
+                      DISPOMIX - промышленные строительные смеси.
+                      <br>
+                      «Экс Морэ» – член Союза производителей сухих строительных смесей с 2015 года, что подтверждает
+                      высокое качество выпускаемой продукции, соответствующей всем российским и мировым стандартам.
+                      <br>
+                      В ассортименте представлена уникальная линейка беспыльных строительных смесей. Первыми в России
+                      разработали и запустили беспыльные смеси, которые на 95% более экологичны и разработаны на основе
+                      природных компонентов, обладают максимальными характеристиками для общестроительного сегмента.
+                      Идеально подходят для применения в «зеленых проектах». Специальная «Зимняя серия» предоставляет
+                      возможность осуществлять отделочные работы даже при отрицательных температурах до -10ºС.
                   </div>
                   <div class="wrapper_ARlKn">
                       <div class="decorWord_3WXw1 stroke-word">
-                          КРАЙЗЕЛЬ, ПЕРФЕКТА
+                          KREISEL PERFEKTA
                       </div>
                       <div class="imageWrapper_426dB image-wrap">
                           <div class="image">
