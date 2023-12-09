@@ -1826,48 +1826,43 @@
         wt = [{
             link: {path: "/"},
             isScrollTop: !0,
-            name: "О проекте",
-            order: 0,
-            subLinks: [{link: {path: "/", hash: "#about"}, name: "Расположение"}, {
-                link: {path: "/", hash: "#advantages"},
-                name: "Преимущества"
-            }, {link: {path: "/", hash: "#finish"}, name: "Интерьеры"}]
-        }, {
-            link: {path: "/filter/"},
-            name: "Выбрать квартиру",
-            order: 1,
-            subLinks: [{
-                link: {name: "filter", query: {rooms: "0,1"}, params: {changeFilter: !0}},
-                name: "Однокомнатные"
-            }, {
-                link: {name: "filter", query: {rooms: "2"}, params: {changeFilter: !0}},
-                name: "Двухкомнатные"
-            }, {
-                link: {name: "filter", query: {rooms: "3"}, params: {changeFilter: !0}},
-                name: "Трехкомнатные"
-            }, {link: {path: "/", hash: "#visual"}, name: "Визуальный выбор"}]
-        }, {link: {path: "/post/"}, name: "Новости", order: 4, subLinks: [{link: {path: "/promo/"}, name: "Акции"}]}],
-        vt = [{
-            link: {path: "/progress/"},
-            name: "Ход строительства",
-            order: 5
+            name: "Главная",
+            subLinks: [
+                {link: {path: "/", hash: "#about"}, name: "О Компании"},
+            ]
         }, {
             link: {path: "/bonolit/"},
-            name: "Новый корпус",
-            order: 2
+            isScrollTop: !0,
+            name: "Бонолит",
+            subLinks: [],
+            classLink: "bonolit"
+        }, {
+            link: {path: "/istkult-ytong/"},
+            isScrollTop: !0,
+            name: "Искульт-Итонг",
+            subLinks: [],
+            classLink: "istkult-ytong"
+        }, {
+            link: {path: "/lsr/"},
+            name: "ЛСР",
+            isScrollTop: !0,
+            subLinks: [],
+            classLink: "lsr"
+        }, {
+            link: {path: "/holcim/"},
+            name: "Цементум-Хольцим",
+            subLinks: []
         }, {
             link: {path: "/kraisel/"},
-            name: "Паркинг",
-            order: 3
-        }, {
-            link: {path: "/documents/"},
-            name: "Документы",
-            order: 6
-        }, {link: {path: "/contacts/"}, name: "Контакты", order: 7}, {
-            link: {path: "/purchase/mortgage/"},
-            name: "Ипотека от 0,1%",
-            order: 4
-        }];
+            name: "Kreisel, Perfekta",
+            subLinks: []
+        }
+        ],
+        vt = [
+            {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
+            {link: {path: "/contacts/"}, name: "Контакты"},
+            {link: {path: "/keramzit/"}, name: "Керамзит"},
+        ];
 
     function yt(t, e) {
         var n = Object.keys(t);
@@ -2139,10 +2134,10 @@
                     value: "body",
                     expression: "'body'"
                 }], class: t.$style.logoLink, attrs: {to: "/"}
-            }, [n("svg", {
+            }, [n("div", {
                 class: [t.$style.logo, {_light: t.isLightTheme}],
                 attrs: {viewBox: "0 0 119 31"}
-            }, [n("use", {attrs: {"xlink:href": "#logo-stellar-mob"}})])]), t._v(" "), n("div", {class: t.$style.favWrapper}, [n("n-link", {
+            }, [n("img", { class:["logo_O6HTv"], attrs: {"src": "http://test.kerames.ru/images/logo-kerames.png"}})])]), t._v(" "), n("div", {class: t.$style.favWrapper}, [n("n-link", {
                 class: [t.$style.fav, {
                     _active: t.count,
                     _light: t.isLightTheme

@@ -2282,6 +2282,8 @@ body._no-animation * {
 
 .container_Yb-GL {
     position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
     z-index: 2;
     width: 100%;
     height: 100%;
@@ -2339,6 +2341,7 @@ body._no-animation * {
 }
 
 .companyLink_EJzcH {
+    display: none;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-right: 15rem;
@@ -2352,6 +2355,7 @@ body._no-animation * {
 
 @media only screen and (max-width: 920px) {
     .companyLink_EJzcH {
+    display: none;
         display: none
     }
 }
@@ -3162,6 +3166,7 @@ body._no-animation * {
 }
 
 .Aside_GBKnc {
+    overflow-y: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -3214,7 +3219,7 @@ body._no-animation * {
 
 @media screen and (min-aspect-ratio: 288/115) {
     .logo_O6HTv {
-        width: 9.04vh
+        width: 10vw
     }
 }
 
