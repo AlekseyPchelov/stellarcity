@@ -4052,10 +4052,16 @@ body._no-animation * {
 .LazyImage_s6vmM, .origin_\+VgIn {
     width: 100%;
     height: 100%;
-    background-image: url('https://bor-stroy.com/upload/medialibrary/324/3245ec408695922175c378dcdf9abf56.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%
+}
+
+.img-left {
+    background-image: url('../images/bonolit-left.jfif');
+}
+.img-right {
+    background-image: url('../images/bonolit-right.jfif');
 }
 
 .origin_\+VgIn {

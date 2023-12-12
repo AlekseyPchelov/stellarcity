@@ -4053,10 +4053,16 @@ body._no-animation * {
 .LazyImage_s6vmM, .origin_\+VgIn {
     width: 100%;
     height: 100%;
-    background-image: url('https://rcmm.ru/uploads/posts/2023-10/1697441857_istkult.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%
+}
+
+.img-left {
+    background-image: url('../images/istkult-left.bmp');
+}
+.img-right {
+    background-image: url('../images/istkult-right.bmp');
 }
 
 .origin_\+VgIn {

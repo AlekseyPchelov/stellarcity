@@ -49,7 +49,7 @@ body {
   font-style: italic;
   letter-spacing: 3px;
   color: rgba(255, 255, 255);
-  opacity: 0.35;
+  opacity: 0.55;
   margin-bottom: 40px;
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;

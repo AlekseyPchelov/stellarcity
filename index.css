@@ -6523,12 +6523,12 @@ body._no-animation * {
     opacity: .5
 }
 
-.content_83\+Wj {
-    padding-left: 6.18rem
+.content_83 {
+    padding-left: 0.18rem
 }
 
 @media only screen and (max-width: 920px) {
-    .content_83\+Wj {
+    .content_83 {
         padding-top: 1em;
         padding-left: 20px
     }
