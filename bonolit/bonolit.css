@@ -2664,10 +2664,6 @@ body._no-animation * {
     }
 }
 
-.navLinkSolo_31OIV:nth-child(2n) {
-    margin-right: 0
-}
-
 .phone_5fL4h {
     margin: 20px 0;
     padding: 0 20px 0 40px;
@@ -3806,6 +3802,7 @@ body._no-animation * {
 }
 
 .favWrapper_5Xc5M {
+    display: none;
     padding: 0 12px
 }
 

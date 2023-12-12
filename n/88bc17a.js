@@ -993,7 +993,8 @@
         }) : r("img", {
             class: [t.$style.logo],
             attrs: {src: n(293)}
-        })]), t._v(" "), r("p", {class: [t.$style.project, {_light: t.isLightTheme}]}, [t._v("\n        Строительные материалы\n    ")]), t._v(" "), r("div", {class: t.$style.asideWrapper}, [r("menu-toggle", {
+        })]), t._v(" "), r("p", {class: [t.$style.project, {_light: t.isLightTheme}]},
+            [t._v("\n        Строительные материалы\n    ")]), t._v(" "), r("div", {class: t.$style.asideWrapper}, [r("menu-toggle", {
             class: t.$style.menu,
             nativeOn: {
                 click: function (e) {
@@ -1790,35 +1791,36 @@
             subLinks: [
                 {link: {path: "/", hash: "#about"}, name: "О Компании"},
             ]
-        }, {
-            link: {path: "/bonolit/"},
-            isScrollTop: !0,
-            name: "Бонолит",
-            subLinks: [],
-            classLink: "bonolit"
-        }, {
-            link: {path: "/istkult-ytong/"},
-            isScrollTop: !0,
-            name: "Искульт-Итонг",
-            subLinks: [],
-            classLink: "istkult-ytong"
-        }, {
-            link: {path: "/lsr/"},
-            name: "ЛСР",
-            isScrollTop: !0,
-            subLinks: [],
-            classLink: "lsr"
-        }, {
-            link: {path: "/holcim/"},
-            name: "Цементум-Хольцим",
-            subLinks: []
-        }, {
-            link: {path: "/kraisel/"},
-            name: "Kreisel, Perfekta",
-            subLinks: []
-        }
+        },
         ]),
         gt = [
+            {
+                link: {path: "/bonolit/"},
+                isScrollTop: !0,
+                name: "Бонолит",
+                subLinks: [],
+                classLink: "bonolit"
+            }, {
+                link: {path: "/istkult-ytong/"},
+                isScrollTop: !0,
+                name: "Искульт-Итонг",
+                subLinks: [],
+                classLink: "istkult-ytong"
+            }, {
+                link: {path: "/lsr/"},
+                name: "ЛСР",
+                isScrollTop: !0,
+                subLinks: [],
+                classLink: "lsr"
+            }, {
+                link: {path: "/holcim/"},
+                name: "Цементум-Хольцим",
+                subLinks: []
+            }, {
+                link: {path: "/kraisel/"},
+                name: "Kreisel, Perfekta",
+                subLinks: []
+            },
             {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
             {link: {path: "/contacts/"}, name: "Контакты"},
             {link: {path: "/keramzit/"}, name: "Керамзит"},
@@ -1916,6 +1918,8 @@
             }
         }
     }, _t = n(137);
+
+    /* Рендер 4 точки */
     var Ct = Object(O.a)(kt, (function () {
         var t = this, e = t.$createElement, n = t._self._c || e;
         return n("div", {
@@ -2050,16 +2054,13 @@
                 class: [t.$style.navLink, t.$style.navLinkSolo, {_hidden: t.isActiveSublink, _light: t.isLightTheme}],
                 attrs: {to: e.link}
             }, [t._v("\n                    " + t._s(e.name) + "\n                ")])
-        })), 1) : t._e()], 1), t._v(" "), n("a", {
-            class: t.$style.phone,
-            attrs: {href: "tel:+74956658999"}
-        }, [t._v("+7 (495) 665 82 99")]), t._v(" "), n("div", {class: t.$style.themeButton}, [n("theme-toggle")], 1), t._v(" "), n("a", {
-            class: t.$style.companyLinkMobile,
-            attrs: {href: "http://tashir-estate.ru/", target: "_blank"}
-        }, [n("div", {class: t.$style.companyLogo}, [n("company-logo")], 1), t._v(" "), n("div", {class: t.$style.companyLinkMobileText}, [t._v("\n                Перейти на сайт "), n("span", {class: [t.$style.companyName, {_light: t.isLightTheme}]}, [t._v("Tashir Estate")])])]), t._v(" "), n("div", {class: t.$style.footer}, [n("a", {
+        })), 1) : t._e()], 1), t._v(" "), t._v(" "), n("div", {class: t.$style.themeButton}, [n("theme-toggle")], 1), t._v(" "),
+            t._v(" "), n("div", {class: t.$style.footer}, [n("a", {
             class: [t.$style.companyLink, {_light: t.isLightTheme}],
             attrs: {href: "http://tashir-estate.ru/", target: "_blank"}
-        }, [t._v("\n                Перейти на сайт "), n("span", {class: [t.$style.companyName, {_light: t.isLightTheme}]}, [t._v("Tashir Estate")])]), t._v(" "), n("div", {class: t.$style.footerWrapper}, [n("stellar-footer-content", {class: [t.$style.footerContent, {"_no-border": "tabS" !== t.$mq}]})], 1)])])])
+        }, [t._v("\n                Перейти на сайт "), n("span", {class: [t.$style.companyName, {_light: t.isLightTheme}]},
+            [t._v("Tashir ")])]), t._v(" "), n("div", {class: t.$style.footerWrapper},
+            [n("stellar-footer-content", {class: [t.$style.footerContent, {"_no-border": "tabS" !== t.$mq}]})], 1)])])])
     }), [], !1, (function (t) {
         this.$style = _t.default.locals || _t.default
     }), null, null), Ot = Ct.exports;
