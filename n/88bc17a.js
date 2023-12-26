@@ -984,7 +984,8 @@
                 expression: "'body'"
             }], class: t.$style.logoLink, attrs: {to: "/"}, nativeOn: {
                 click: function (e) {
-                    return t.checkJump({link: {path: ""}})
+                    window.location.href = "/";
+                    return t.checkJump({link: {path: "/"}})
                 }
             }
         }, [t.isLightTheme ? r("img", {
@@ -1785,7 +1786,7 @@
         }), [], !1, (function (t) {
             this.$style = ht.default.locals || ht.default
         }), null, null).exports, bt = (n(50), [{
-            link: {path: "/"},
+            link: {path: "/", hash: "#intro"},
             isScrollTop: !0,
             name: "Главная",
             subLinks: [
@@ -1967,21 +1968,36 @@
                         return t.onClickLink(r)
                     }
                 }
-            }, [t._v("\n                            " + t._s(e.name) + "\n                        ")]), t._v(" "), e.subLinks && e.subLinks.length ? n("div", {class: [t.$style.childsItems, {_active: t.activeSublinkIndex === r}]}, [n("nuxt-link", {
+            }, [t._v("\n                            " + t._s(e.name) + "\n                        ")]), t._v(" "),
+                e.subLinks && e.subLinks.length ? n("div", {class: [t.$style.childsItems, {_active: t.activeSublinkIndex === r}]}, [n("nuxt-link", {
                 directives: [{
                     name: "scroll-to",
                     rawName: "v-scroll-to",
                     value: e.isScrollTop ? "body" : !!e.link.hash && e.link.hash,
                     expression: "link.isScrollTop ? 'body' : link.link.hash ? link.link.hash : false"
-                }], class: [t.$style.subLink, "_main-mobile"], attrs: {to: e.link}
-            }, [t._v("\n                                " + t._s(e.name) + "\n                            ")]), t._v(" "), t._l(e.subLinks, (function (e, r) {
+                }], class: [t.$style.subLink, "_main-mobile"], attrs: {to: e.link},
+                    nativeOn: {
+                        click: function () { // Редирект в мобиле 4 точки саблинки
+                            window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
+                        }
+                    }
+            }, [t._v("\n                                " + t._s(e.name) + "\n                            ")]),
+                    t._v(" "), t._l(e.subLinks, (function (e, r) {
                 return n("nuxt-link", {
                     directives: [{
                         name: "scroll-to",
                         rawName: "v-scroll-to",
                         value: !!e.link.hash && e.link.hash,
                         expression: "subLink.link.hash ? subLink.link.hash : false"
-                    }], key: "subLinks" + r, class: t.$style.subLink, attrs: {to: e.link}
+                    }],
+                    key: "subLinks" + r,
+                    class: t.$style.subLink,
+                    attrs: {to: e.link},
+                    nativeOn: {
+                        click: function () { // Редирект в мобиле 4 точки саблинки
+                            window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
+                        }
+                    }
                 }, [t._v("\n                                " + t._s(e.name) + "\n                            ")])
             }))], 2) : t._e()], 1)
         })) : t._e(), t._v(" "), t.mobSoloLinks.length ? t._l(t.mobSoloLinks, (function (e, r) {
@@ -1995,7 +2011,12 @@
                 key: r,
                 class: [t.$style.navLink, t.$style.navLinkSolo, {_hidden: t.isActiveSublink, _light: t.isLightTheme}],
                 style: {order: e.order},
-                attrs: {to: e.link}
+                attrs: {to: e.link},
+                nativeOn: {
+                    click: function () { // Редирект в мобиле 4 точки линки
+                        window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
+                    }
+                }
             }, [t._v("\n                        " + t._s(e.name) + "\n                    ")])
         })) : t._e()], 2)], 1) : n("div", {class: t.$style.navs}, [n("backward-link", {
             class: [t.$style.closeSubs, {_visible: t.isActiveSublink}],
@@ -2021,18 +2042,25 @@
                     _light: t.isLightTheme
                 }, e.classLink ? e.classLink : ""],
                 attrs: {to: e.link, event: "tabS" !== t.$mq ? "click" : ""},
-                nativeOn: {
-                    click: function (e) {
-                        return t.onClickLink(r)
+                    nativeOn: {
+                        click: function () { // Редирект в основе 4 точки линки
+                            window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
+                        }
                     }
-                }
-            }, [t._v("\n                        " + t._s(e.name) + "\n                    ")]), t._v(" "), e.subLinks && e.subLinks.length ? n("div", {class: [t.$style.childsItems, {_active: t.activeSublinkIndex === r}]}, [n("nuxt-link", {
+            }, [t._v("\n                        " + t._s(e.name) + "\n                    ")]),
+                t._v(" "), e.subLinks && e.subLinks.length ? n("div", {class: [t.$style.childsItems, {_active: t.activeSublinkIndex === r}]},
+                    [n("nuxt-link", {
                 directives: [{
                     name: "scroll-to",
                     rawName: "v-scroll-to",
                     value: e.isScrollTop ? "body" : !!e.link.hash && e.link.hash,
                     expression: "link.isScrollTop ? 'body' : link.link.hash ? link.link.hash : false"
-                }], class: [t.$style.subLink, "_main-mobile"], attrs: {to: e.link}
+                }], class: [t.$style.subLink, "_main-mobile"], attrs: {to: e.link},
+                        nativeOn: {
+                            click: function () { // Редирект в основе 4 точки линки
+                                window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
+                            }
+                        }
             }, [t._v("\n                            " + t._s(e.name) + "\n                        ")]), t._v(" "), t._l(e.subLinks, (function (e, r) {
                 return n("nuxt-link", {
                     directives: [{
@@ -2040,7 +2068,15 @@
                         rawName: "v-scroll-to",
                         value: !!e.link.hash && e.link.hash,
                         expression: "subLink.link.hash ? subLink.link.hash : false"
-                    }], key: "subLinks" + r, class: t.$style.subLink, attrs: {to: e.link}
+                    }],
+                    key: "subLinks" + r,
+                    class: t.$style.subLink,
+                    attrs: {to: e.link},
+                    nativeOn: {
+                        click: function () { // Редирект в основе 4 точки саблинки
+                            window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
+                        }
+                    }
                 }, [t._v("\n                            " + t._s(e.name) + "\n                        ")])
             }))], 2) : t._e()], 1)
         })), 0) : t._e(), t._v(" "), t.soloLinks.length ? n("div", {class: t.$style.soloNavs}, t._l(t.soloLinks, (function (e, r) {
@@ -2053,7 +2089,12 @@
                 }],
                 key: "soloLinks" + r,
                 class: [t.$style.navLink, t.$style.navLinkSolo, {_hidden: t.isActiveSublink, _light: t.isLightTheme}],
-                attrs: {to: e.link}
+                attrs: {to: e.link},
+                nativeOn: {
+                    click: function () { // Редирект в основе 4 точки линки
+                        window.location.href = e.link.path + (e.link.hash ? e.link.hash : '');
+                    }
+                }
             }, [t._v("\n                    " + t._s(e.name) + "\n                ")])
         })), 1) : t._e()], 1), t._v(" "), t._v(" "), n("div", {class: t.$style.themeButton}, [n("theme-toggle")], 1), t._v(" "),
             t._v(" "), n("div", {class: t.$style.footer}, [n("a", {
@@ -4809,7 +4850,6 @@
                                     }))
                                 } else l()
                             }));
-                            console.log(h);
                         case 24:
                         case"end":
                             return t.stop()
