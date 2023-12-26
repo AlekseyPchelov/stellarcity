@@ -4000,7 +4000,7 @@ body._no-animation * {
 }
 
 .advantages_2b9uT {
-    margin: 5rem 0 10rem
+    margin: 5rem 0 6rem
 }
 
 @media only screen and (max-width: 920px) {
@@ -4766,7 +4766,7 @@ body._no-animation * {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 25rem 10.5rem 5.1rem 12.3rem;
+    /*padding: 25rem 10.5rem 5.1rem 12.3rem;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -5337,7 +5337,7 @@ body._no-animation * {
 .sCrisis_lb644 .featuresItem_iwabA {
     position: relative;
     display: block;
-    width: 25%;
+    width: 29%;
     margin-bottom: 2rem;
     padding-left: 9rem
 }
@@ -5375,7 +5375,7 @@ body._no-animation * {
 }
 
 .sCrisis_lb644 .featuresTitle_kvRyj {
-    margin: 0 0 3rem;
+    margin: 0 0 2rem;
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: .02em
@@ -7511,4 +7511,8 @@ body._no-animation * {
 .tg-icon[data-v-48c3b72c] {
     height: 1.5em;
     margin-left: 1em
+}
+
+.map-widget-user-maps-content-view {
+    background-image: url(http://test.kerames.ru/images/logo-kerames.png);
 }

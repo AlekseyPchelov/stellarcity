@@ -4054,7 +4054,7 @@ body._no-animation * {
 .LazyImage_s6vmM, .main-image {
     width: 100%;
     height: 100%;
-    background-image: url('../images/template-main.webp');
+    background-image: url('../images/holcim-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%
@@ -4064,7 +4064,7 @@ body._no-animation * {
 .LazyImage_s6vmM, .main-image__right {
     width: 100%;
     height: 100%;
-    background-image: url('../images/template-right.webp');
+    background-image: url('../images/holcim-right.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%

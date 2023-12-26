@@ -958,7 +958,7 @@
                         exact: !0,
                         name: "О КОМПАНИИ"
                     }, {
-                        link: {path: "contacts/index.html"},
+                        link: {path: "/contacts"},
                         name: "КОНТАКТЫ"
                     }
                 ]
@@ -1822,8 +1822,8 @@
                 subLinks: []
             },
             {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
-            {link: {path: "/contacts/"}, name: "Контакты"},
             {link: {path: "/keramzit/"}, name: "Керамзит"},
+            {link: {path: "/contacts/"}, name: "Контакты"},
         ],
         wt = [{
             link: {path: "/"},
@@ -1832,38 +1832,39 @@
             subLinks: [
                 {link: {path: "/", hash: "#about"}, name: "О Компании"},
             ]
-        }, {
-            link: {path: "/bonolit/"},
-            isScrollTop: !0,
-            name: "Бонолит",
-            subLinks: [],
-            classLink: "bonolit"
-        }, {
-            link: {path: "/istkult-ytong/"},
-            isScrollTop: !0,
-            name: "Искульт-Итонг",
-            subLinks: [],
-            classLink: "istkult-ytong"
-        }, {
-            link: {path: "/lsr/"},
-            name: "ЛСР",
-            isScrollTop: !0,
-            subLinks: [],
-            classLink: "lsr"
-        }, {
-            link: {path: "/holcim/"},
-            name: "Цементум-Хольцим",
-            subLinks: []
-        }, {
-            link: {path: "/kraisel/"},
-            name: "Kreisel, Perfekta",
-            subLinks: []
-        }
+        },
         ],
         vt = [
+            {
+                link: {path: "/bonolit/"},
+                isScrollTop: !0,
+                name: "Бонолит",
+                //zsubLinks: [],
+                classLink: "bonolit"
+            }, {
+                link: {path: "/istkult-ytong/"},
+                isScrollTop: !0,
+                name: "Искульт-Итонг",
+                subLinks: [],
+                classLink: "istkult-ytong"
+            }, {
+                link: {path: "/lsr/"},
+                name: "ЛСР",
+                isScrollTop: !0,
+                subLinks: [],
+                classLink: "lsr"
+            }, {
+                link: {path: "/holcim/"},
+                name: "Цементум-Хольцим",
+                subLinks: []
+            }, {
+                link: {path: "/kraisel/"},
+                name: "Kreisel, Perfekta",
+                subLinks: []
+            },
             {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
-            {link: {path: "/contacts/"}, name: "Контакты"},
             {link: {path: "/keramzit/"}, name: "Керамзит"},
+            {link: {path: "/contacts/"}, name: "Контакты"},
         ];
 
     function yt(t, e) {
