@@ -1789,9 +1789,7 @@
             link: {path: "/", hash: "#intro"},
             isScrollTop: !0,
             name: "Главная",
-            subLinks: [
-                {link: {path: "/", hash: "#about"}, name: "О Компании"},
-            ]
+            subLinks: []
         },
         ]),
         gt = [
@@ -1824,15 +1822,14 @@
             },
             {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
             {link: {path: "/keramzit/"}, name: "Керамзит"},
+            {link: {path: "/", hash: "#about"}, name: "О Компании"},
             {link: {path: "/contacts/"}, name: "Контакты"},
         ],
         wt = [{
             link: {path: "/"},
             isScrollTop: !0,
             name: "Главная",
-            subLinks: [
-                {link: {path: "/", hash: "#about"}, name: "О Компании"},
-            ]
+            subLinks: []
         },
         ],
         vt = [
@@ -1865,6 +1862,7 @@
             },
             {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
             {link: {path: "/keramzit/"}, name: "Керамзит"},
+            {link: {path: "/", hash: "#about"}, name: "О Компании"},
             {link: {path: "/contacts/"}, name: "Контакты"},
         ];
 
