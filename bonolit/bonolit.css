@@ -4058,10 +4058,10 @@ body._no-animation * {
 }
 
 .img-left {
-    background-image: url('../images/bonolit-left.jfif');
+    background-image: url('../images/bonolit/bonolit_levo.jpg');
 }
 .img-right {
-    background-image: url('../images/bonolit-right.jfif');
+    background-image: url('../images/bonolit/bonolit_pravo.png');
 }
 
 .origin_\+VgIn {
@@ -6474,4 +6474,9 @@ body._no-animation * {
 .tg-icon[data-v-48c3b72c] {
     height: 1.5em;
     margin-left: 1em
+}
+
+.header-text__main {
+    font-weight: 700;
+    font-size: 3.6rem;
 }

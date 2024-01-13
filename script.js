@@ -1,5 +1,6 @@
 var options = {
   accessibility: true,
+  autoPlay: true,
   prevNextButtons: true,
   pageDots: true,
   setGallerySize: false,

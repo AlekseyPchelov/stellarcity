@@ -4384,7 +4384,9 @@ body._no-animation * {
 
 @media only screen and (max-width: 920px) {
     .sSpace_kZ6qJ .buttonWrap_hJ0zY {
-        display: none
+        display: inherit;
+        top: 10%;
+        left: 10%;
     }
 }
 

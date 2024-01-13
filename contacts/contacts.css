@@ -3973,12 +3973,15 @@ body._no-animation * {
     position: fixed;
     top: 50%;
     right: -24.5vw;
-    width: 72.5vw;
-    height: 72.5vw;
+    width: 65.5vw;
+    height: 65.5vw;
     border-radius: 50%;
     overflow: hidden;
     -webkit-transform: translateY(-50%);
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    background-image: url('https://mc-guide.ru/wp-content/uploads/2022/04/ff58773d28659f6b8267848111baf7d9ad846243.jpeg');
+    background-repeat: round;
+    background-size: cover;
 }
 
 @media screen and (orientation: portrait) {

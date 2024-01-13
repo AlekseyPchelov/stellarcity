@@ -143,7 +143,7 @@
             computed: _(_(_(_({}, Object(a.e)("global", ["isLightTheme"])), Object(a.e)("contacts", {contacts: "data"})), Object(a.c)("contacts", ["location"])), {}, {
                 officeLocation: function () {
                     var t = this.location;
-                    return (null == t ? void 0 : t.length) ? "https://yandex.ru/maps/213/moscow/?ll=37.516322%2C55.716768&mode=routes&rtext=~55.717827%2C37.512011&rtt=auto&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjY4NzE1ORJB0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINGD0LvQuNGG0LAg0KPQu9C-0YTQsCDQn9Cw0LvRjNC80LUsIDEiCg1ODBZCFQ7fXkI%2C&z=14.13" : null
+                    return (null == t ? void 0 : t.length) ? "https://yandex.ru/maps/213/moscow/?ll=37.512036%2C55.717593&mode=routes&rtext=~55.717882%2C37.511784&rtt=auto&ruri=~&z=14" : null
                 }
             }),
             fetch: function (t) {
@@ -197,13 +197,20 @@
             }, [t._v("\n            Контакты\n        ")]), t._v(" "), r("div", {
                 ref: "about",
                 class: [t.$style.list, t.$style._transition]
-            }, [t.contacts.address ? r("div", {class: t.$style.item}, [r("span", {class: t.$style.name}, [t._v("Адрес")]), t._v(" "), r("p", {
-                class: t.$style.value,
-                attrs: {itemprop: "address"}
-            }, [t._v(t._s(t.contacts.address))])]) : t._e(), t._v(" "), t.contacts.phone_number ? r("div", {class: t.$style.item}, [r("span", {class: t.$style.name}, [t._v("Телефон отдела продаж")]), t._v(" "), r("a", {
-                class: t.$style.value,
-                attrs: {href: "tel:" + t.contacts.phone_number, itemprop: "telephone"}
-            }, [t._v("\n                    " + t._s(t._f("prettyPhone")(t.contacts.phone_number)) + "\n                ")])]) : t._e(), t._v(" "), r("div", {class: t.$style.item}, [r("span", {class: t.$style.name}, [t._v("График работы")]), t._v(" "), t._l(t.contacts.officehours_set, (function (e, n) {
+            }, [t.contacts.address ?
+                r("div", {class: t.$style.item}, [r("span", {class: t.$style.name}, [t._v("Фактический адрес")]), t._v(" "), r("p", {
+                    class: t.$style.value,
+                    attrs: {itemprop: "address"}
+                }, [t._v(t._s(t.contacts.address))])]) : t._e(), t._v(" "),
+                t.contacts.address ? r("div", {class: t.$style.item}, [r("span", {class: t.$style.name}, [t._v("Юридический адрес")]), t._v(" "), r("p", {
+                    class: t.$style.value,
+                    attrs: {itemprop: "address"}
+                }, [t._v(t._s("г. Москва, Волгоградской проспект, д. 47"))])]) : t._e(),
+                t.contacts.phone_number ? r("div", {class: t.$style.item},
+                [r("span", {class: t.$style.name}, [t._v("Телефон отдела продаж")]), t._v(" "), r("a", {
+                    class: t.$style.value,
+                    attrs: {href: "tel:" + t.contacts.phone_number, itemprop: "telephone"}
+                }, [t._v("\n                    " + t._s(t._f("prettyPhone")(t.contacts.phone_number)) + "\n                ")])]) : t._e(), t._v(" "), r("div", {class: t.$style.item}, [r("span", {class: t.$style.name}, [t._v("График работы")]), t._v(" "), t._l(t.contacts.officehours_set, (function (e, n) {
                 return r("div", {key: n, class: t.$style.value}, [r("meta", {
                     attrs: {
                         content: t.scheduleContent(e),

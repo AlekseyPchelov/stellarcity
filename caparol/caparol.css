@@ -4388,14 +4388,16 @@ body._no-animation * {
 
 .sSpace_kZ6qJ .buttonWrap_hJ0zY {
     position: absolute;
-    top: 2rem;
-    left: 2%;
+    top: 85%;
+    left: 55%;
     z-index: 2
 }
 
 @media only screen and (max-width: 920px) {
     .sSpace_kZ6qJ .buttonWrap_hJ0zY {
-        display: none
+        display: inherit;
+        top: 30%;
+        left: 30%;
     }
 }
 

@@ -4384,7 +4384,9 @@ body._no-animation * {
 
 @media only screen and (max-width: 920px) {
     .sSpace_kZ6qJ .buttonWrap_hJ0zY {
-        display: none
+        display: inherit;
+        top: 10%;
+        left: 10%;
     }
 }
 
@@ -4481,7 +4483,7 @@ body._no-animation * {
 
 .sUrbanLeft_9m16o {
     position: relative;
-    margin-bottom: 13rem
+    margin-bottom: 3rem
 }
 
 @media only screen and (max-width: 920px) {
@@ -4493,7 +4495,7 @@ body._no-animation * {
 
 .sUrbanLeft_9m16o .inner_YfSwj {
     position: relative;
-    padding: 5.3rem 20rem 17rem 3.5rem;
+    padding: 5.3rem 20rem 5rem 3.5rem;
     border: 1px solid #ffeec7;
     border-top: none
 }

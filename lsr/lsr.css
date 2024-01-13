@@ -4377,14 +4377,16 @@ body._no-animation * {
 
 .sSpace_kZ6qJ .buttonWrap_hJ0zY {
     position: absolute;
-    top: 3rem;
-    left: 20%;
+    top: 80%;
+    left: 55%;
     z-index: 2
 }
 
 @media only screen and (max-width: 920px) {
     .sSpace_kZ6qJ .buttonWrap_hJ0zY {
-        display: none
+        display: inherit;
+        top: 10%;
+        left: 10%;
     }
 }
 
@@ -6480,4 +6482,17 @@ body._no-animation * {
 .tg-icon[data-v-48c3b72c] {
     height: 1.5em;
     margin-left: 1em
+}
+
+.banner {
+    position: relative
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content__background {
+    background-image: linear-gradient(328deg, rgb(33, 39, 52), rgb(84, 50, 77));
 }
