@@ -1,0 +1,5 @@
+User-agent: *
+disallow: /1S/
+disallow: /css/
+disallow: /js/
+host: www.kerames.ru

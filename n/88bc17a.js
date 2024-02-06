@@ -2180,7 +2180,7 @@
             }, [n("div", {
                 class: [t.$style.logo, {_light: t.isLightTheme}],
                 attrs: {viewBox: "0 0 119 31"}
-            }, [n("img", { class:["logo_O6HTv"], attrs: {"src": "http://test.kerames.ru/images/logo-kerames.png"}})])]), t._v(" "), n("div", {class: t.$style.favWrapper}, [n("n-link", {
+            }, [n("img", { class:["logo_O6HTv"], attrs: {"src": "http://kerames.ru/images/logo-kerames.png"}})])]), t._v(" "), n("div", {class: t.$style.favWrapper}, [n("n-link", {
                 class: [t.$style.fav, {
                     _active: t.count,
                     _light: t.isLightTheme
@@ -3101,11 +3101,11 @@
                                 }, {
                                     hid: "keywords",
                                     name: "keywords",
-                                    content: "stellar city, сколково, новостройка сколково, квартира сколково, жк, жилой комплекс, квартира, квартиры, дом, купить квартиру, квартиры бизнес класса, купить квартиры, жилой комплекс бизнес-класса, квартиры бизнес класса в москве, премиум квартиры"
+                                    content: "Строительные материалы, строительные материалы оптом, комплексное снабжение, купить строительные материалы"
                                 }, {
                                     hid: "description",
                                     name: "description",
-                                    content: "Новый третий корпус! Мастер-спальни, окна на 3 стороны и собственная инфраструктура. Прописка в Москве, 20 минут до центра."
+                                    content: "Продажа премиальных строительных материалов. Оптовая и розничная по доступным ценам С доставкой по Москве, области и всей России."
                                 }, {
                                     hid: "og:title",
                                     property: "og:title",
@@ -3113,7 +3113,7 @@
                                 }, {
                                     hid: "og:description",
                                     property: "og:description",
-                                    content: "Новый третий корпус! Мастер-спальни, окна на 3 стороны и собственная инфраструктура. Прописка в Москве, 20 минут до центра."
+                                    content: "Продажа премиальных строительных материалов. Оптовая и розничная по доступным ценам С доставкой по Москве, области и всей России."
                                 }, {
                                     name: "facebook-domain-verification",
                                     content: "9ffilx6v36d285ictdpn10niyp4nrk"
@@ -4993,9 +4993,9 @@
 }, function (t, e) {
     t.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuMTMwODYgNi42MDQ0OUw2LjY1NzIzIDEwLjY0MDZMMTIuMTUyMyA2LjYwNDQ5IiBzdHJva2U9IndoaXRlIi8+Cjwvc3ZnPgo="
 }, function (t, e, n) {
-    t.exports = "http://test.kerames.ru/images/logo-kerames.png"
+    t.exports = "http://kerames.ru/images/logo-kerames.png"
 }, function (t, e, n) {
-    t.exports = "http://test.kerames.ru/images/logo-kerames.png"
+    t.exports = "http://kerames.ru/images/logo-kerames.png"
 }, function (t, e, n) {
     "use strict";
     n(171)
