@@ -932,7 +932,7 @@
                         subname: "Газобетонные блоки"
                     }, {
                         link: {path: "/istkult-ytong"},
-                        name: "ИСКУЛЬТ-ИТОНГ",
+                        name: "ИСТКУЛЬТ-ИТОНГ",
                         subname: "Газобетонные блоки"
                     }, {
                         link: {path: "/lsr"},
@@ -952,7 +952,8 @@
                         subname: "Краски"
                     }, {
                         link: {path: "/keramzit"},
-                        name: "КЕРАМЗИТ",
+                        name: "ПГП, КЕРАМЗИТ",
+                        subname: "Керамзитные блоки"
                     }, {
                         link: {path: "/", hash: "#about"},
                         exact: !0,
@@ -1802,7 +1803,7 @@
             }, {
                 link: {path: "/istkult-ytong/"},
                 isScrollTop: !0,
-                name: "Искульт-Итонг",
+                name: "Исткульт-Итонг",
                 subLinks: [],
                 classLink: "istkult-ytong"
             }, {
@@ -1821,18 +1822,19 @@
                 subLinks: []
             },
             {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
-            {link: {path: "/keramzit/"}, name: "Керамзит"},
+            {link: {path: "/keramzit/"}, name: "ПГП, КЕРАМЗИТ"},
             {link: {path: "/", hash: "#about"}, name: "О Компании"},
             {link: {path: "/contacts/"}, name: "Контакты"},
         ],
-        wt = [{
-            link: {path: "/"},
-            isScrollTop: !0,
-            name: "Главная",
-            subLinks: []
-        },
+        wt = [
         ],
         vt = [
+            {
+                link: {path: "/"},
+                isScrollTop: !0,
+                name: "Главная",
+                subLinks: []
+            },
             {
                 link: {path: "/bonolit/"},
                 isScrollTop: !0,
@@ -1842,7 +1844,7 @@
             }, {
                 link: {path: "/istkult-ytong/"},
                 isScrollTop: !0,
-                name: "Искульт-Итонг",
+                name: "Исткульт-Итонг",
                 subLinks: [],
                 classLink: "istkult-ytong"
             }, {
@@ -1861,7 +1863,7 @@
                 subLinks: []
             },
             {link: {path: "/caparol/"}, name: "Linnimax-Caparol"},
-            {link: {path: "/keramzit/"}, name: "Керамзит"},
+            {link: {path: "/keramzit/"}, name: "ПГП, КЕРАМЗИТ"},
             {link: {path: "/", hash: "#about"}, name: "О Компании"},
             {link: {path: "/contacts/"}, name: "Контакты"},
         ];
@@ -2139,7 +2141,7 @@
                 return this.scrollTop > 10
             }, headerClasses: function () {
                 return {
-                    _fill: !this.menuOpened,
+                    _fill: !this.menuOpened && this.isScrolling,
                     "_opened-menu": this.menuOpened,
                     _light: this.isLightTheme
                 }
@@ -5099,7 +5101,7 @@
     }, t.exports = r
 }, function (t, e, n) {
     var r = n(14)(!1);
-    r.push([t.i, '.wrapper_HNRqC{position:fixed;top:0;left:0;z-index:11;display:none;width:100%;-webkit-transform:translateY(0);transform:translateY(0);-webkit-transition:-webkit-transform .2s ease;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease,-webkit-transform .2s ease}@media only screen and (max-width:920px){.wrapper_HNRqC{display:block}}.HeaderMobile_IPNi5{width:100%;padding:14px 8px}@media only screen and (max-width:920px){.HeaderMobile_IPNi5{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}.HeaderMobile_IPNi5._fill:after{-webkit-transform:scaleY(1);transform:scaleY(1)}.HeaderMobile_IPNi5._opened-menu{z-index:11}.HeaderMobile_IPNi5._light:after{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(30%,#dfeffc),to(rgba(223,239,252,0)));background-image:linear-gradient(180deg,#dfeffc 30%,rgba(223,239,252,0))}.HeaderMobile_IPNi5:after{content:"";position:absolute;top:0;left:0;z-index:-1;width:100%;height:180%;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(30%,#141924),to(rgba(20,25,37,0)));background-image:linear-gradient(180deg,#141924 30%,rgba(20,25,37,0));-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:top;transform-origin:top;-webkit-transition:-webkit-transform .4s cubic-bezier(.165,.84,.44,1);transition:-webkit-transform .4s cubic-bezier(.165,.84,.44,1);transition:transform .4s cubic-bezier(.165,.84,.44,1);transition:transform .4s cubic-bezier(.165,.84,.44,1),-webkit-transform .4s cubic-bezier(.165,.84,.44,1);pointer-events:none}.logoLink_4bzNw{display:block;width:144px;margin:0 auto}.logo_33gR\\+{display:block;width:100%;height:31px;fill:#fff;-webkit-transition:opacity .26s ease;transition:opacity .26s ease}.logo_33gR\\+._light{fill:#222326}.logo_33gR\\+:hover{opacity:.7}.favWrapper_5Xc5M{padding:0 12px}.fav_-9UBD{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:16px;height:16px;padding-top:.1em;font-size:9px;line-height:1;border:1px solid #fff;border-radius:50%;-webkit-transition:opacity .23s ease,background-color .23s ease,color .23s ease;transition:opacity .23s ease,background-color .23s ease,color .23s ease}.fav_-9UBD._light{border-color:#222326}.fav_-9UBD._active{background-color:#fff;color:#141924}.fav_-9UBD._active._light{background-color:#222326;color:#fff}.fav_-9UBD:hover{opacity:.8}', ""]), r.locals = {
+    r.push([t.i, '.wrapper_HNRqC{position:fixed;top:0;left:0;z-index:11;display:none;width:100%;-webkit-transform:translateY(0);transform:translateY(0);-webkit-transition:-webkit-transform .2s ease;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease,-webkit-transform .2s ease}@media only screen and (max-width:920px){.wrapper_HNRqC{display:block}}.HeaderMobile_IPNi5{width:100%;padding:14px 8px}@media only screen and (max-width:920px){.HeaderMobile_IPNi5{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}.HeaderMobile_IPNi5._fill:after{-webkit-transform:scaleY(1);transform:scaleY(1)}.HeaderMobile_IPNi5._opened-menu{z-index:11}.HeaderMobile_IPNi5._light:after{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(30%,#dfeffc),to(rgba(223,239,252,0)));background-image:linear-gradient(180deg,#dfeffc 30%,rgba(223,239,252,0))}.HeaderMobile_IPNi5:after{content:"";position:absolute;top:0;left:0;z-index:-1;width:100%;height:180%;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(30%,#141924),to(rgba(20,25,37,0)));background-image:linear-gradient(180deg,#141924 30%,rgba(20,25,37,0));-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:top;transform-origin:top;-webkit-transition:-webkit-transform .4s cubic-bezier(.165,.84,.44,1);transition:-webkit-transform .4s cubic-bezier(.165,.84,.44,1);transition:transform .4s cubic-bezier(.165,.84,.44,1);transition:transform .4s cubic-bezier(.165,.84,.44,1),-webkit-transform .4s cubic-bezier(.165,.84,.44,1);pointer-events:none}.logoLink_4bzNw{display:block;width:144px;margin:0 auto}.logo_33gR\\+{display:block;width:100%;height:31px;fill:#fff;-webkit-transition:opacity .26s ease;transition:opacity .26s ease}.logo_33gR\\+._light{fill:#222326}.logo_33gR\\+:hover{opacity:.7}.favWrapper_5Xc5M{padding:0 12px; display:none;}.fav_-9UBD{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:16px;height:16px;padding-top:.1em;font-size:9px;line-height:1;border:1px solid #fff;border-radius:50%;-webkit-transition:opacity .23s ease,background-color .23s ease,color .23s ease;transition:opacity .23s ease,background-color .23s ease,color .23s ease}.fav_-9UBD._light{border-color:#222326}.fav_-9UBD._active{background-color:#fff;color:#141924}.fav_-9UBD._active._light{background-color:#222326;color:#fff}.fav_-9UBD:hover{opacity:.8}', ""]), r.locals = {
         wrapper: "wrapper_HNRqC",
         HeaderMobile: "HeaderMobile_IPNi5",
         logoLink: "logoLink_4bzNw",

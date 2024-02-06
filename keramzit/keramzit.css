@@ -1108,10 +1108,20 @@ li {
     line-height: 1.2
 }
 
+.subtitle {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.2
+}
+
 @media only screen and (max-width: 920px) {
     .second-title {
         font-size: 2.4rem;
         margin-bottom: 1rem
+    }
+    .subtitle {
+        font-size: 1.4rem;
     }
 }
 
@@ -3888,6 +3898,9 @@ body._no-animation * {
         flex-direction: column;
         padding: 80px 20px 0
     }
+    .logoLink_4bzNw {
+        display: none;
+    }
 }
 
 .sFirstLeft_aE4L-, .sFirstRight_h8ObG {
@@ -4054,7 +4067,7 @@ body._no-animation * {
 .LazyImage_s6vmM, .main-image {
     width: 100%;
     height: 100%;
-    background-image: url('../images/template-main.webp');
+    background-image: url('../images/keramzit/keramzit-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%
@@ -4063,7 +4076,7 @@ body._no-animation * {
 .LazyImage_s6vmM, .main-image__right {
     width: 100%;
     height: 100%;
-    background-image: url('../images/template-right.webp');
+    background-image: url('../images/keramzit/keramzit-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%
@@ -4083,7 +4096,7 @@ body._no-animation * {
     opacity: 1
 }
 
-.sAdvantage_ROS5\+ {
+.sUrban_Si9RN {
     position: relative;
     padding-top: 1rem
 }
@@ -4108,7 +4121,7 @@ body._no-animation * {
 
 .sAdvantageLeft_J38QZ, .sAdvantageRight_yqYS\+ {
     position: relative;
-    width: 49%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4134,7 +4147,7 @@ body._no-animation * {
     }
 }
 
-.sAdvantage_ROS5\+ .decorOne_6M58w {
+.sUrban_Si9RN .decorOne_6M58w {
     position: absolute;
     top: 0;
     left: 0;
@@ -4142,29 +4155,29 @@ body._no-animation * {
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .decorOne_6M58w {
+    .sUrban_Si9RN .decorOne_6M58w {
         top: 5rem;
         width: calc(100% - 20px)
     }
 }
 
-.sAdvantage_ROS5\+ .decorOne_6M58w svg {
+.sUrban_Si9RN .decorOne_6M58w svg {
     left: 20px;
     width: 100%
 }
 
-.sAdvantage_ROS5\+ .decorTwo_wEgI8 {
+.sUrban_Si9RN .decorTwo_wEgI8 {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 100%
 }
 
-.sAdvantage_ROS5\+ .decorTwo_wEgI8 img {
+.sUrban_Si9RN .decorTwo_wEgI8 img {
     width: 100%
 }
 
-.sAdvantage_ROS5\+ .title_Y5\+Uf {
+.sUrban_Si9RN .title_Y5\+Uf {
     color: #d1d1d1;
     font-size: 1.8rem;
     font-weight: 600;
@@ -4174,7 +4187,7 @@ body._no-animation * {
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .title_Y5\+Uf {
+    .sUrban_Si9RN .title_Y5\+Uf {
         position: absolute;
         left: 20px;
         top: 0;
@@ -4184,7 +4197,7 @@ body._no-animation * {
     }
 }
 
-.sAdvantage_ROS5\+ .text_1zoEo {
+.sUrban_Si9RN .text_1zoEo {
     padding-left: 10rem;
     margin-bottom: 2.6rem;
     font-size: 1.4rem;
@@ -4194,7 +4207,7 @@ body._no-animation * {
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .text_1zoEo {
+    .sUrban_Si9RN .text_1zoEo {
         font-size: 1.2rem;
         line-height: 1.6;
         padding-left: 5rem;
@@ -4203,26 +4216,26 @@ body._no-animation * {
     }
 }
 
-.sAdvantage_ROS5\+ .decorWord_i87XR {
+.sUrban_Si9RN .decorWord_i87XR {
     -ms-flex-item-align: end;
     align-self: flex-end
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .decorWord_i87XR {
+    .sUrban_Si9RN .decorWord_i87XR {
         -ms-flex-item-align: start;
         align-self: flex-start;
         padding-left: 20px
     }
 }
 
-.sAdvantage_ROS5\+ .imageWrapper_EkvAz {
+.sUrban_Si9RN .imageWrapper_EkvAz {
     margin: 3.3rem 2rem 3rem 2.8rem;
     padding-top: 115%
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .imageWrapper_EkvAz {
+    .sUrban_Si9RN .imageWrapper_EkvAz {
         margin: 1rem -2rem 3rem 2rem
     }
 }
@@ -4233,17 +4246,17 @@ body._no-animation * {
     align-items: center
 }
 
-.sAdvantage_ROS5\+ .items_Eseil {
+.sUrban_Si9RN .items_Eseil {
     padding: 4rem
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .items_Eseil {
+    .sUrban_Si9RN .items_Eseil {
         padding: 3rem 20px 5rem
     }
 }
 
-.sAdvantage_ROS5\+ .item_EBcc1 {
+.sUrban_Si9RN .item_EBcc1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4252,19 +4265,19 @@ body._no-animation * {
     align-items: center
 }
 
-.sAdvantage_ROS5\+ .item_EBcc1:not(:last-child) {
+.sUrban_Si9RN .item_EBcc1:not(:last-child) {
     margin-bottom: 5rem
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .item_EBcc1:not(:last-child) {
+    .sUrban_Si9RN .item_EBcc1:not(:last-child) {
         margin-bottom: 4rem
     }
 }
 
-.sAdvantage_ROS5\+ .itemIco_QywT2 {
+.sUrban_Si9RN .itemIco_QywT2 {
     position: relative;
-    width: 11rem;
+    width: 19rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4280,17 +4293,17 @@ body._no-animation * {
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .itemIco_QywT2 {
+    .sUrban_Si9RN .itemIco_QywT2 {
         width: 7.4rem;
         margin-right: 1rem
     }
 }
 
-.sAdvantage_ROS5\+ .itemIco_QywT2 img {
+.sUrban_Si9RN .itemIco_QywT2 img {
     width: 100%
 }
 
-.sAdvantage_ROS5\+ .itemTitle_GzmM8 {
+.sUrban_Si9RN .itemTitle_GzmM8 {
     font-size: 2rem;
     color: #bababa;
     font-weight: 600;
@@ -4298,12 +4311,12 @@ body._no-animation * {
 }
 
 @media only screen and (max-width: 920px) {
-    .sAdvantage_ROS5\+ .itemTitle_GzmM8 {
+    .sUrban_Si9RN .itemTitle_GzmM8 {
         font-size: 14px
     }
 }
 
-.sAdvantage_ROS5\+ .itemText_YIviX {
+.sUrban_Si9RN .itemText_YIviX {
     color: #8a8a8a;
     font-size: 1.4rem;
     line-height: 1.4
@@ -4477,7 +4490,7 @@ body._no-animation * {
 
 @media only screen and (max-width: 920px) {
     .sUrbanLeft_9m16o, .sUrbanRight_kwfpu {
-        width: 100%
+        width: 100% !important;
     }
 }
 
@@ -6482,4 +6495,10 @@ body._no-animation * {
 .tg-icon[data-v-48c3b72c] {
     height: 1.5em;
     margin-left: 1em
+}
+
+.last-section {
+    margin-top: -20%;
+    padding-left: 3rem;
+    width: 57%;
 }

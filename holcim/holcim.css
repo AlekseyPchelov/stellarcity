@@ -3888,6 +3888,9 @@ body._no-animation * {
         flex-direction: column;
         padding: 80px 20px 0
     }
+    .logoLink_4bzNw {
+        display: none;
+    }
 }
 
 .sFirstLeft_aE4L-, .sFirstRight_h8ObG {

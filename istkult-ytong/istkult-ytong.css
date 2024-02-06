@@ -3887,6 +3887,9 @@ body._no-animation * {
         flex-direction: column;
         padding: 80px 20px 0
     }
+    .logoLink_4bzNw {
+        display: none;
+    }
 }
 
 .sFirstLeft_aE4L-, .sFirstRight_h8ObG {
@@ -4381,9 +4384,16 @@ body._no-animation * {
     .sSpace_kZ6qJ .buttonWrap_hJ0zY {
         display: none
     }
+    .buttonWrap_hJ0zY {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        z-index: 2
+    }
 }
 
 .button_p62wY {
+    margin-bottom: 1%;
     background: rgba(22, 22, 22, .5);
     border: 1px solid #e4aea2
 }
@@ -6475,4 +6485,9 @@ body._no-animation * {
 .tg-icon[data-v-48c3b72c] {
     height: 1.5em;
     margin-left: 1em
+}
+
+.header-text__main {
+    font-weight: 700;
+    font-size: 3.6rem;
 }
