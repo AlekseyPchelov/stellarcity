@@ -6502,3 +6502,24 @@ body._no-animation * {
     padding-left: 3rem;
     width: 57%;
 }
+
+.modal__color {
+    color: black;
+    --bs-modal-bg: none;
+}
+.modal-content__background {
+    background-image: linear-gradient(328deg, rgb(33, 39, 52), rgb(84, 50, 77));
+}
+.modal-header__border-bottom {
+    border-bottom: var(--bs-modal-header-border-width) solid #312a3c;
+}
+.modal-footer__border-top {
+    border-top: var(--bs-modal-header-border-width) solid #312a3c;
+}
+.modal__button-send {
+    color: #ffeec7;
+    background: transparent;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    border: 1px solid #ffeec7;
+}
