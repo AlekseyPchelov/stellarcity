@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8
+
+<FilesMatch "\.(env|phar)$">
+Order Deny,Allow
+Deny from all
+</FilesMatch>

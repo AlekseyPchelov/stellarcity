@@ -2097,11 +2097,7 @@
                 }
             }, [t._v("\n                    " + t._s(e.name) + "\n                ")])
         })), 1) : t._e()], 1), t._v(" "), t._v(" "), n("div", {class: t.$style.themeButton}, [n("theme-toggle")], 1), t._v(" "),
-            t._v(" "), n("div", {class: t.$style.footer}, [n("a", {
-            class: [t.$style.companyLink, {_light: t.isLightTheme}],
-            attrs: {href: "http://tashir-estate.ru/", target: "_blank"}
-        }, [t._v("\n                Перейти на сайт "), n("span", {class: [t.$style.companyName, {_light: t.isLightTheme}]},
-            [t._v("Tashir ")])]), t._v(" "), n("div", {class: t.$style.footerWrapper},
+            t._v(" "), n("div", {class: t.$style.footer}, [n("div", {class: t.$style.footerWrapper},
             [n("stellar-footer-content", {class: [t.$style.footerContent, {"_no-border": "tabS" !== t.$mq}]})], 1)])])])
     }), [], !1, (function (t) {
         this.$style = _t.default.locals || _t.default
@@ -2180,7 +2176,7 @@
             }, [n("div", {
                 class: [t.$style.logo, {_light: t.isLightTheme}],
                 attrs: {viewBox: "0 0 119 31"}
-            }, [n("img", { class:["logo_O6HTv"], attrs: {"src": "http://kerames.ru/images/logo-kerames.png"}})])]), t._v(" "), n("div", {class: t.$style.favWrapper}, [n("n-link", {
+            }, [n("img", { class:["logo_O6HTv"], attrs: {"src": "https://kerames.ru/images/logo-kerames.png"}})])]), t._v(" "), n("div", {class: t.$style.favWrapper}, [n("n-link", {
                 class: [t.$style.fav, {
                     _active: t.count,
                     _light: t.isLightTheme
@@ -4993,9 +4989,9 @@
 }, function (t, e) {
     t.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuMTMwODYgNi42MDQ0OUw2LjY1NzIzIDEwLjY0MDZMMTIuMTUyMyA2LjYwNDQ5IiBzdHJva2U9IndoaXRlIi8+Cjwvc3ZnPgo="
 }, function (t, e, n) {
-    t.exports = "http://kerames.ru/images/logo-kerames.png"
+    t.exports = "https://kerames.ru/images/logo-kerames.png"
 }, function (t, e, n) {
-    t.exports = "http://kerames.ru/images/logo-kerames.png"
+    t.exports = "https://kerames.ru/images/logo-kerames.png"
 }, function (t, e, n) {
     "use strict";
     n(171)
